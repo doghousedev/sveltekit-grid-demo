@@ -1,7 +1,4 @@
 <script lang="ts">
-	import 'ag-grid-community/styles/ag-grid.css';
-	import 'ag-grid-community/styles/ag-theme-material.css';
-
 	import CircularProgress from '@smui/circular-progress';
 
 	import AgGridSvelte from 'ag-grid-svelte';
@@ -52,7 +49,7 @@
 	};
 </script>
 
-<div class="ag-theme-material" style:width="100%" style:height="100%" style:position="relative" style:overflow="hidden">
+<div class="ag-theme-svelte-material" style:width="100%" style:height="100%" style:position="relative" style:overflow="hidden">
 	{#if rowData.length > 0}
 		<AgGridSvelte {rowData} {columnDefs} {defaultColDef} {onGridReady} />
 	{:else}
