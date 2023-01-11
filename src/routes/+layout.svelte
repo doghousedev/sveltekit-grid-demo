@@ -48,7 +48,7 @@
 	</div>
 </div>
 
-<style>
+<style lang="scss">
 	.drawer-container {
 		position: relative;
 		display: flex;
