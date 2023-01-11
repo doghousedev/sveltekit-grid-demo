@@ -9,7 +9,9 @@ npm run dev
 npm run dev -- --open
 ```
 
-# if you change the themes during development
+if you change the themes during development
+
+```bash
 npm run build:theme
 ```
 
@@ -24,3 +26,5 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+> Nodejs adapter is already setup, ready for deploy
