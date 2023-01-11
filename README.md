@@ -9,7 +9,7 @@ npm run dev
 npm run dev -- --open
 ```
 
-if you change the themes during development
+if you change the themes during development, or if you add new smui components
 
 ```bash
 npm run build:theme
