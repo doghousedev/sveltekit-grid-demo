@@ -44,7 +44,7 @@
 		{ field: 'gold', width: 100 },
 		{ field: 'silver', width: 100 },
 		{ field: 'bronze', width: 100 },
-		{ field: 'total', width: 100, pinned: 'right' }
+		{ field: 'total', width: 100, pinned: 'right', editable: false }
 	];
 
 	let api: GridApi;
