@@ -80,7 +80,7 @@
 
 <div style:display="flex" style:flex-direction="column" style:height="100%">
 	{#if rowData.length > 0}
-		<div style:text-align="end" style:margin-bottom="10px">
+		<div style:text-align="end" style:margin-bottom="35px">
 			<Textfield
 				class="shaped-outlined"
 				variant="outlined"
