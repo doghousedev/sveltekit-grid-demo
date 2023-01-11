@@ -4,7 +4,13 @@
 	import Icon from '@smui/textfield/icon';
 
 	import AgGridSvelte from 'ag-grid-svelte';
-	import type { ColDef, GridApi, ColumnApi, GridOptions, GridSizeChangedEvent } from 'ag-grid-community';
+	import type {
+		ColDef,
+		GridApi,
+		ColumnApi,
+		GridOptions,
+		GridSizeChangedEvent
+	} from 'ag-grid-community';
 
 	interface IOlympicData {
 		athlete: string;
@@ -64,7 +70,7 @@
 
 	let filterString = '';
 	const onFilterStringChange = () => {
-		console.log({filterString});
+		console.log({ filterString });
 		api?.setQuickFilter(filterString);
 	};
 
@@ -72,31 +78,38 @@
 	$: filterString, onFilterStringChange();
 </script>
 
-{#if rowData.length > 0}
-	<div style:text-align="end" style:margin-bottom="10px">
-		<Textfield class="shaped-outlined" variant="outlined" bind:value={filterString} label="Search">
-			<Icon class="material-icons" slot="leadingIcon">search</Icon>
-		</Textfield>
-	</div>
-{/if}
-
-<div
-	class="ag-theme-svelte-material"
-	style:width="100%"
-	style:height="100%"
-	style:position="relative"
-	style:overflow="hidden"
->
+<div style:display="flex" style:flex-direction="column" style:height="100%">
 	{#if rowData.length > 0}
-		<AgGridSvelte {rowData} {columnDefs} {defaultColDef} {gridOptions} bind:api bind:columnApi />
-	{:else}
-		<div class="spinner-wrapper">
-			<CircularProgress style="height: 64px; width: 64px;" indeterminate />
-		</div>
-		<div style:display="none">
-			<AgGridSvelte {gridOptions} />
+		<div style:text-align="end" style:margin-bottom="10px">
+			<Textfield
+				class="shaped-outlined"
+				variant="outlined"
+				bind:value={filterString}
+				label="Search"
+			>
+				<Icon class="material-icons" slot="leadingIcon">search</Icon>
+			</Textfield>
 		</div>
 	{/if}
+
+	<div
+		class="ag-theme-svelte-material"
+		style:width="100%"
+		style:flex="1"
+		style:position="relative"
+		style:overflow="hidden"
+	>
+		{#if rowData.length > 0}
+			<AgGridSvelte {rowData} {columnDefs} {defaultColDef} {gridOptions} bind:api bind:columnApi />
+		{:else}
+			<div class="spinner-wrapper">
+				<CircularProgress style="height: 64px; width: 64px;" indeterminate />
+			</div>
+			<div style:display="none">
+				<AgGridSvelte {gridOptions} />
+			</div>
+		{/if}
+	</div>
 </div>
 
 <style lang="scss">
