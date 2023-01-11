@@ -69,6 +69,6 @@
 		overflow: hidden;
 		position: relative;
 		flex-grow: 1;
-		padding: 20px;
+		padding: 35px;
 	}
 </style>
