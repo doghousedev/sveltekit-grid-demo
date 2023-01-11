@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "npm run build:theme && vite dev",
 		"build": "npm run build:theme && npm run build:code",
-		"build:code": "npm run prepare-theme && vite build",
+		"build:code": "vite build",
 		"build:theme": "npm run smui-theme:build && npm run ag-grid-theme:build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
