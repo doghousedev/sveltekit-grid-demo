@@ -32,7 +32,8 @@
 		{
 			headerName: 'id',
 			field: 'id',
-			pinned: 'left'
+			pinned: 'left',
+			editable: false
 		},
 		{ field: 'athlete', width: 150, pinned: 'left' },
 		{ field: 'age', pinned: 'left' },
