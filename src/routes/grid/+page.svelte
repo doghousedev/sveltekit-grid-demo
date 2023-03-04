@@ -1,16 +1,30 @@
 <script lang="ts">
+	import { toggleSection, sections } from './grid';
+
+	//smui
 	import CircularProgress from '@smui/circular-progress';
 	import Textfield from '@smui/textfield';
 	import Icon from '@smui/textfield/icon';
+	import Button from '@smui/button';
 
+	import Select, { Option } from '@smui/select';
+	import HelperText from '@smui/textfield/helper-text';
+	1;
+
+	//ag-grid
 	import AgGridSvelte from 'ag-grid-svelte';
 	import type {
 		ColDef,
 		GridApi,
 		ColumnApi,
 		GridOptions,
-		GridSizeChangedEvent
+		GridSizeChangedEvent,
+		SortController
 	} from 'ag-grid-community';
+
+	import Info from '$components/QuoteInfo.svelte';
+	import Client from '$components/Client.svelte';
+	import Rates from '$components/Rates.svelte';
 
 	interface IOlympicData {
 		athlete: string;
@@ -79,7 +93,30 @@
 	$: filterString, onFilterStringChange();
 </script>
 
-<div style:display="flex" style:flex-direction="column" style:height="100%">
+<div style="display: flex; justify-content: space-between; align-items: center;">
+	<div>
+		{#each sections as section}
+			<Button on:click={() => toggleSection(section.id)}>{section.label}</Button>
+		{/each}
+	</div>
+
+	<div style="margin-left: 10px;">
+		<Select>
+			<Option value="">Select an option</Option>
+			<Option value="views">Views</Option>
+			<Option value="reports">Reports</Option>
+			<Option value="preferences">Preferences</Option>
+		</Select>
+	</div>
+</div>
+
+<hr />
+<Info />
+
+<Client />
+
+<div id="ag-grid" style:display="none" style:flex-direction="column" style:height="800px">
+	+
 	{#if rowData.length > 0}
 		<div style:text-align="end" style:margin-bottom="35px">
 			<Textfield
@@ -113,7 +150,20 @@
 	</div>
 </div>
 
+<Rates />
+
 <style lang="scss">
+	.textfield-container {
+		display: flex;
+		align-items: center;
+	}
+	.textfield-label {
+		margin-right: 16px; /* adjust this to your liking */
+	}
+	.textfield-input {
+		flex-grow: 1;
+	}
+
 	.spinner-wrapper {
 		position: absolute;
 		left: 50%;

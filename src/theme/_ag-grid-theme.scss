@@ -1,7 +1,5 @@
 @use "../../node_modules/ag-grid-community/styles" as ag;
 
-@include ag.grid-styles((
-    theme: svelte-material,
-    extend-theme: material,
-    --ag-material-primary-color: #ff3e00
-));
+@include ag.grid-styles((theme: svelte-material,
+        extend-theme: material,
+        --ag-material-primary-color: #ff3e00));

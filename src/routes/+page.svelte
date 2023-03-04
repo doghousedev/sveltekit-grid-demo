@@ -1,12 +1,84 @@
 <script lang="ts">
-	const welcomeString: string = 'Welcome to the svelte(& -kit)/smui/ag-grid demo!';
+	//smui
+	import Button from '@smui/button';
+	import Select, { Option } from '@smui/select';
+
+	import Client from '$components/Client.svelte';
+	import QuoteInfo from '$components/QuoteInfo.svelte';
+	import Rates from '$components/Rates.svelte';
+	// import Grid from '$components/Grid.svelte';
+	import QuoteItemsGrid from '$components/QuoteItemsGrid.svelte';
+
+	//#region newshowDivs
+	// Define an array of objects that describes the buttons and divs
+	const sections = [
+		{
+			id: 'quote-info',
+			label: 'Quote Info'
+		},
+		{
+			id: 'client',
+			label: 'Client'
+		},
+		{
+			id: 'ag-grid',
+			label: 'Items'
+		},
+		{
+			id: 'rates',
+			label: 'Rates'
+		}
+	];
+
+	// Define a function to handle button clicks and toggle the visibility of the divs
+	function toggleSection(id: string) {
+		sections.forEach((section) => {
+			const div = document.getElementById(section.id) as HTMLDivElement;
+			if (section.id === id) {
+				div.style.display = 'flex';
+			} else {
+				div.style.display = 'none';
+			}
+		});
+	}
+	//#endregion
 </script>
 
-<h1>{welcomeString}</h1>
-<p>Visit <a href="https://svelte.dev/docs">svelte.dev</a> to read the svelte language documentation</p>
-<p>Visit <a href="https://kit.svelte.dev/docs/introduction">kit.svelte.dev</a> to read the svelte kit documentation</p>
-<p>Visit <a href="https://sveltematerialui.com">sveltematerialui.com</a> to read the svelte material ui documentation</p>
-<p>Visit <a href="https://www.ag-grid.com/javascript-data-grid/grid-api/">ag-grid.com</a> to read the ag-grid documentation</p>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+	<div>
+		{#each sections as section}
+			<Button on:click={() => toggleSection(section.id)}>{section.label}</Button>
+		{/each}
+	</div>
 
-<hr>
-<p>Jump to the <a href="/grid">grid</a>!</p>
+	<div style="margin-left: 10px;">
+		<Select>
+			<Option value="">Select an option</Option>
+			<Option value="views">Views</Option>
+			<Option value="reports">Reports</Option>
+			<Option value="preferences">Preferences</Option>
+		</Select>
+	</div>
+</div>
+
+<hr />
+<QuoteInfo />
+
+<Client />
+
+<Rates />
+
+<!-- <Grid /> -->
+<QuoteItemsGrid />
+
+<!-- icons for future reference https://fonts.google.com/icons?icon.set=Material+Icons -->
+<style lang="scss">
+	* :global(.shaped-outlined .mdc-notched-outline .mdc-notched-outline__leading) {
+		border-radius: 28px 0 0 28px;
+		width: 28px;
+	}
+
+	* :global(.shaped-outlined .mdc-notched-outline .mdc-notched-outline__trailing) {
+		border-radius: 0 28px 28px 0;
+	}
+</style>

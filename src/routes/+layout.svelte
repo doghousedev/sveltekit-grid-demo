@@ -3,7 +3,6 @@
 
 	import TopAppBar, { Row, Section, Title as BarTitle } from '@smui/top-app-bar';
 	import Drawer, { AppContent, Content, Header, Title, Subtitle } from '@smui/drawer';
-
 	import List, { Item, Text } from '@smui/list';
 	import IconButton from '@smui/icon-button';
 
@@ -18,7 +17,7 @@
 	<Row>
 		<Section>
 			<IconButton class="material-icons" on:click={() => (open = !open)}>menu</IconButton>
-			<BarTitle>Demo {path}</BarTitle>
+			<BarTitle>Quotes {path}</BarTitle>
 		</Section>
 	</Row>
 </TopAppBar>
