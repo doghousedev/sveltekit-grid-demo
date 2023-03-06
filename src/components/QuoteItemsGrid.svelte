@@ -199,91 +199,6 @@
 		//#endregion
 	];
 
-	// const columnDefs: MyColumnDef[] = [
-	// 	{
-	// field: 'quantity_total',
-	// type: 'numericColumn',
-	// editable: true,
-	// cellEditor: 'agTextCellEditor',
-	// valueFormatter: numberValueFormatter,
-	// valueParser: numberParser,
-	// aggFunc: 'sum'
-	// 	},
-	// 	{
-	// 		headerName: 'Name',
-	// 		field: 'name',
-	// 		cellEditor: 'agTextCellEditor'
-	// 	},
-	// 	{
-	// 		headerName: 'Price Modifier',
-	// 		field: 'price_modifier',
-	// 		editable: true,
-	// 		cellEditor: 'agTextCellEditor',
-	// 		onCellValueChanged: (params) => {
-	// 			const regex = /^(P|M|D)\d{2}$|^X$|^L$/i;
-	// 			const match = params.newValue.match(regex);
-	// 			if (!match) {
-	// 				alert(
-	// 					`Invalid price modifier format. Format should be one of: \nP##, M##, D##, \nX (without digits)\nL (without digits)`
-	// 				);
-	// 				params.node.setDataValue('price_modifier', params.oldValue);
-	// 			}
-	// 		},
-	// 		cellEditorParams: {
-	// 			validate: (value: string) => {
-	// 				const regex = /^(P|M|D)\d{2}$|^X$|^L$/i;
-	// 				const match = value.match(regex);
-	// 				if (!match) {
-	// 					return {
-	// 						valid: false,
-	// 						message:
-	// 							'Invalid price modifier format. Format should be one \nof: P##, M##, L, D##, \nX (without digits)\nL (without digits)'
-	// 					};
-	// 				}
-	// 				return { valid: true };
-	// 			}
-	// 		}
-	// 	},
-	// 	{
-	// field: 'unit_cost',
-	// type: 'numericColumn',
-	// valueFormatter: numberValueFormatter,
-	// valueParser: numberParser,
-	// editable: true,
-	// cellEditor: 'agTextCellEditor',
-	// aggFunc: 'sum'
-	// 	},
-	// 	{
-	// 		field: 'unit_price',
-	// 		type: 'numericColumn',
-	// 		valueFormatter: numberValueFormatter,
-	// 		valueParser: numberParser,
-	// 		aggFunc: 'sum'
-	// 	},
-	// 	{
-	// 		field: 'list_price',
-	// 		type: 'numericColumn',
-	// 		editable: true,
-	// 		cellEditor: 'agTextCellEditor',
-	// 		valueFormatter: numberValueFormatter,
-	// 		valueParser: numberParser,
-	// 		aggFunc: 'sum'
-	// 	},
-	// 	{
-	// 		field: 'extended_cost',
-	// 		type: 'numericColumn',
-	// 		valueFormatter: numberValueFormatter,
-	// 		valueParser: numberParser,
-	// 		aggFunc: 'sum'
-	// 	},
-	// 	{
-	// 		field: 'extended_price',
-	// 		type: 'numericColumn',
-	// 		valueFormatter: numberValueFormatter,
-	// 		valueParser: numberParser,
-	// 		aggFunc: 'sum'
-	// 	}
-	// ];
 	//here is where we start the grid and pass in the column definitions
 	let grid: Grid;
 
@@ -352,8 +267,6 @@
 		onCellValueChanged: function (params) {
 			// perform any necessary updates to your application state
 			recalcualteTotals(params);
-			dothis(params);
-
 			//console.log('Cell data has changed:', params);
 		}
 	};
@@ -470,10 +383,9 @@
 	style:flex-direction="column"
 	style:height="800px"
 >
-	<div style:text-align="end" style:margin-bottom="35px">
-		<Textfield class="shaped-outlined" variant="outlined" bind:value={filterString} label="Search">
-			<Icon class="material-icons" slot="leadingIcon">search</Icon>
-		</Textfield>
+	<div style:text-align="end" style:margin-bottom="15px">
+		<Icon class="material-icons" slot="leadingIcon">search</Icon>
+		<Textfield class="shaped-outlined" variant="dense" bind:value={filterString} label="Search" />
 	</div>
 </div>
 <div class="column">
@@ -509,7 +421,15 @@
 	* :global(.shaped-outlined .mdc-notched-outline .mdc-notched-outline__trailing) {
 		border-radius: 0 28px 28px 0;
 	}
-	.ag-theme-balham {
-		--ag-background-color: #efefef;
+	// .ag-theme-material {
+	// 	--ag-background-color: #efefef;
+	// 	--ag-cell-hover-background-color: chartruse;
+	// }
+	.ag-theme-material {
+		// --ag-background-color: #efefef;
+		--ag-checkbox-background-color: white;
+		--ag-checkbox-checked-color: dodgerblue;
+		--ag-checkbox-unchecked-color: $blue-grey-500;
+		--ag-checkbox-indeterminate-color: grey;
 	}
 </style>

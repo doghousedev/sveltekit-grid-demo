@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { toggleSection, sections } from './grid';
-
 	//smui
 	import CircularProgress from '@smui/circular-progress';
 	import Textfield from '@smui/textfield';
