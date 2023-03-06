@@ -6,7 +6,7 @@
 	import Client from '$components/Client.svelte';
 	import QuoteInfo from '$components/QuoteInfo.svelte';
 	import Rates from '$components/Rates.svelte';
-	// import Grid from '$components/Grid.svelte';
+	import Grid from '$components/Grid.svelte';
 	import QuoteItemsGrid from '$components/QuoteItemsGrid.svelte';
 
 	//#region newshowDivs
@@ -54,7 +54,7 @@
 	<div style="margin-left: 10px;">
 		<Select>
 			<Option value="">Select an option</Option>
-			<Option value="views">Views</Option>
+			<Option value="views" on:selected={() => console.log('blahjs')}>Views</Option>
 			<Option value="reports">Reports</Option>
 			<Option value="preferences">Preferences</Option>
 		</Select>
@@ -70,6 +70,7 @@
 
 <!-- <Grid /> -->
 <QuoteItemsGrid />
+<!-- <Grid2 /> -->
 
 <!-- icons for future reference https://fonts.google.com/icons?icon.set=Material+Icons -->
 <style lang="scss">

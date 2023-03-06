@@ -18,6 +18,9 @@
 
 	//custom function
 	import { jsonFlattenArrayObjectsAsString } from '$lib/flattening';
+	import { numberParser, unescapeSymbols } from '$lib/utility_functions';
+
+	const minWidth: number = 150;
 
 	const defaultColDef: ColDef = {
 		resizable: true,
@@ -26,10 +29,21 @@
 	};
 
 	let rowData: any[] = [];
-	const minWidth: number = 150;
+	interface MyColumnDef {
+		field: string;
+		headerName?: string;
+		width?: number;
+		hide?: boolean;
+		checkboxSelection?: boolean;
+		editable?: boolean;
+		type?: string;
+		valueFormatter?: (params: { value: any }) => string;
+		valueParser?: (params: { newValue: any }) => number | string;
+		aggFunc?: string;
+	}
 
-	const columnDefs: ColDef[] = [
-		{ field: 'id' },
+	const columnDefs: MyColumnDef[] = [
+		{ field: 'id', editable: false, checkboxSelection: true },
 		{ field: 'job_cost_class' },
 		{ field: 'category_id' },
 		{
@@ -41,16 +55,37 @@
 		},
 		{ field: 'uom', width: minWidth },
 		{ field: 'pricebook_part_number' },
-		{ field: 'model_name' },
+		{
+			field: 'model_name',
+			valueFormatter: (params: { value: string }) => unescapeSymbols(params.value)
+		},
 		{ field: 'mfg_link' },
-		{ field: 'manufacturer' },
-		{ field: 'description', width: 280 },
+		{
+			field: 'manufacturer',
+			valueFormatter: (params: { value: string }) => unescapeSymbols(params.value)
+		},
+		{
+			field: 'description',
+			width: 280,
+			valueFormatter: (params: { value: string }) => unescapeSymbols(params.value)
+		},
 		{ field: 'preferred_vendor_display' },
-		{ field: 'unit_cost', type: 'numericColumn', valueFormatter: numberValueFormatter },
+		{
+			field: 'unit_cost',
+			type: 'numericColumn',
+			valueFormatter: numberValueFormatter,
+			valueParser: numberParser
+		},
 		{ field: 'price_modifier', width: minWidth },
 		{ field: 'unit_price', type: 'numericColumn', valueFormatter: numberValueFormatter },
 		{ field: 'list_price', type: 'numericColumn', valueFormatter: numberValueFormatter },
-		{ field: 'extended_cost', type: 'numericColumn', valueFormatter: numberValueFormatter },
+		{
+			field: 'extended_cost',
+			type: 'numericColumn',
+			valueFormatter: numberValueFormatter,
+			valueParser: numberParser,
+			aggFunc: 'sum'
+		},
 		{ field: 'extended_price', type: 'numericColumn', valueFormatter: numberValueFormatter },
 		{ field: 'extended_list_price', type: 'numericColumn', valueFormatter: numberValueFormatter },
 		{ field: 'freight_sell', type: 'numericColumn', valueFormatter: numberValueFormatter },
@@ -151,7 +186,6 @@
 
 	// bind to changes of filterString to our eventHandler :)
 	$: filterString, onFilterStringChange();
-	$: console.trace({ rowData });
 
 	function numberValueFormatter(params: any) {
 		const value = parseFloat(params.value);
@@ -334,9 +368,17 @@
 		</div>
 	{/if}
 
-	<div class="ag-theme-material" style:width="100%" style:flex="1">
+	<div class="ag-theme-svelte-material" style:width="100%" style:flex="1">
 		{#if rowData.length > 0}
-			<AgGridSvelte {rowData} {columnDefs} {defaultColDef} {gridOptions} bind:api bind:columnApi />
+			<AgGridSvelte
+				{rowData}
+				{columnDefs}
+				{defaultColDef}
+				{gridOptions}
+				sideBar
+				bind:api
+				bind:columnApi
+			/>
 		{:else}
 			<div class="spinner-wrapper">
 				<CircularProgress style="height: 64px; width: 64px;" indeterminate />
@@ -347,3 +389,19 @@
 		{/if}
 	</div>
 </div>
+
+<style lang="scss">
+	.spinner-wrapper {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+	* :global(.shaped-outlined .mdc-notched-outline .mdc-notched-outline__leading) {
+		border-radius: 28px 0 0 28px;
+		width: 28px;
+	}
+	* :global(.shaped-outlined .mdc-notched-outline .mdc-notched-outline__trailing) {
+		border-radius: 0 28px 28px 0;
+	}
+</style>
