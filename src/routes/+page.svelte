@@ -41,7 +41,12 @@
 			}
 		});
 	}
+	function sayHi(v: string) {
+		console.log('hi from svelte', v);
+	}
 	//#endregion
+	let value: string = '';
+	$: sayHi(value);
 </script>
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -52,9 +57,9 @@
 	</div>
 
 	<div style="margin-left: 10px;">
-		<Select>
+		<Select class="shaped-filled" variant="outlined" bind:value>
 			<Option value="">Select an option</Option>
-			<Option value="views" on:selected={() => console.log('blahjs')}>Views</Option>
+			<Option value="views">Views</Option>
 			<Option value="reports">Reports</Option>
 			<Option value="preferences">Preferences</Option>
 		</Select>

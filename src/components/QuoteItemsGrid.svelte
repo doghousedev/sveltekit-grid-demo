@@ -385,7 +385,12 @@
 >
 	<div style:text-align="end" style:margin-bottom="15px">
 		<Icon class="material-icons" slot="leadingIcon">search</Icon>
-		<Textfield class="shaped-outlined" variant="dense" bind:value={filterString} label="Search" />
+		<Textfield
+			class="shaped-outlined"
+			variant="standard"
+			bind:value={filterString}
+			label="Search"
+		/>
 	</div>
 </div>
 <div class="column">
