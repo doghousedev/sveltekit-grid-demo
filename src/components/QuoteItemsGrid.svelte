@@ -41,116 +41,10 @@
 		onCellValueChanged?: (params: any) => void;
 	}
 
-	// const columnDefs: MyColumnDef[] = [
-	// 	{ field: 'id', editable: false, checkboxSelection: true },
-	// 	{ field: 'job_cost_class' },
-	// 	{ field: 'category_id' },
-	// 	{
-	// 		field: 'quantity_total',
-	// 		headerName: 'Qty',
-	// 		width: minWidth,
-	// 		type: 'numericColumn',
-	// 		valueFormatter: numberValueFormatter,
-	// 		valueParser: numberParser
-	// 	},
-	// 	{ field: 'uom', width: minWidth },
-	// 	{ field: 'pricebook_part_number' },
-	// 	{
-	// 		field: 'model_name',
-	// 		valueFormatter: (params: { value: string }) => unescapeSymbols(params.value)
-	// 	},
-	// 	{ field: 'mfg_link' },
-	// 	{
-	// 		field: 'manufacturer',
-	// 		valueFormatter: (params: { value: string }) => unescapeSymbols(params.value)
-	// 	},
-	// 	{
-	// 		field: 'description',
-	// 		width: 280,
-	// 		valueFormatter: (params: { value: string }) => unescapeSymbols(params.value)
-	// 	},
-	// 	{ field: 'preferred_vendor_display' },
-	// 	{
-	// 		field: 'unit_cost',
-	// 		type: 'numericColumn',
-	// 		valueFormatter: numberValueFormatter,
-	// 		valueParser: numberParser
-	// 	},
-	// 	{ field: 'price_modifier', width: minWidth },
-	// 	{ field: 'unit_price', type: 'numericColumn', valueFormatter: numberValueFormatter },
-	// 	{ field: 'list_price', type: 'numericColumn', valueFormatter: numberValueFormatter },
-	// 	{
-	// 		field: 'extended_cost',
-	// 		type: 'numericColumn',
-	// 		valueFormatter: numberValueFormatter,
-	// 		valueParser: numberParser,
-	// 		aggFunc: 'sum'
-	// 	},
-	// 	{ field: 'extended_price', type: 'numericColumn', valueFormatter: numberValueFormatter },
-	// 	{ field: 'extended_list_price', type: 'numericColumn', valueFormatter: numberValueFormatter },
-	// 	{ field: 'freight_sell', type: 'numericColumn', valueFormatter: numberValueFormatter },
-	// 	{ field: 'materials_sell', type: 'numericColumn', valueFormatter: numberValueFormatter },
-	// 	{ field: 'service_sell', type: 'numericColumn', valueFormatter: numberValueFormatter },
-	// 	{ field: 'sundries_sell', type: 'numericColumn', valueFormatter: numberValueFormatter },
-	// 	{ field: 'tax_amount', type: 'numericColumn', valueFormatter: numberValueFormatter },
-	// 	//#region hidden
-	// 	{ field: 'apply_cost_discount', hide: true },
-	// 	{ field: 'created_id', hide: true },
-	// 	{
-	// 		field: 'extended_net_cost',
-	// 		type: 'numericColumn',
-	// 		valueFormatter: numberValueFormatter,
-	// 		hide: true
-	// 	},
-	// 	{
-	// 		field: 'extended_net_price',
-	// 		type: 'numericColumn',
-	// 		valueFormatter: numberValueFormatter,
-	// 		hide: true
-	// 	},
-
-	// 	{ field: 'date_created', hide: true },
-	// 	{ field: 'date_modified', hide: true },
-	// 	{ field: 'div_1', headerName: 'Location', hide: true },
-	// 	{ field: 'div_2', headerName: 'System', hide: true },
-	// 	{ field: 'ishighlighted', hide: true },
-	// 	{ field: 'isoptional', hide: true },
-	// 	{ field: 'istaxable', hide: true },
-	// 	{ field: 'labor_task_code', hide: true },
-	// 	{ field: 'line_attributes', hide: true },
-	// 	{ field: 'object_id', hide: true },
-	// 	{ field: 'owner_id', hide: true },
-	// 	{ field: 'owner_team_id', hide: true },
-	// 	{ field: 'modified_id', hide: true },
-	// 	{ field: 'part_number', hide: true },
-	// 	{ field: 'preferred_vendor', hide: true },
-	// 	{ field: 'price_discount_percentage', valueFormatter: percentageValueFormatter, hide: true },
-	// 	{ field: 'name', hide: true },
-	// 	{
-	// 		field: 'net_unit_cost',
-	// 		type: 'numericColumn',
-	// 		valueFormatter: numberValueFormatter,
-	// 		hide: true
-	// 	},
-	// 	{
-	// 		field: 'net_unit_price',
-	// 		type: 'numericColumn',
-	// 		valueFormatter: numberValueFormatter,
-	// 		hide: true
-	// 	},
-	// 	{ field: 'notes', hide: true },
-	// 	{ field: 'qty_labor_install', hide: true },
-	// 	{ field: 'qty_labor_programming', hide: true },
-	// 	{ field: 'related_labor_pricebook', hide: true },
-	// 	{ field: 'record_locator', hide: true },
-	// 	{ field: 'search_string', hide: true },
-	// 	{ field: 'related_quote', hide: true },
-	// 	{ field: 'related_to', hide: true },
-	// 	{ field: 'search_string', hide: true }
-	// 	//#endregion
-	// ];
-
 	const columnDefs: MyColumnDef[] = [
+		{ field: 'id', editable: false, checkboxSelection: true },
+		{ field: 'job_cost_class' },
+		{ field: 'category_id' },
 		{
 			field: 'quantity_total',
 			type: 'numericColumn',
@@ -160,10 +54,32 @@
 			valueParser: numberParser,
 			aggFunc: 'sum'
 		},
+
+		{ field: 'uom', width: minWidth },
+		{ field: 'pricebook_part_number' },
 		{
-			headerName: 'Name',
-			field: 'name',
-			cellEditor: 'agTextCellEditor'
+			field: 'model_name',
+			valueFormatter: (params: { value: string }) => unescapeSymbols(params.value)
+		},
+		{ field: 'mfg_link' },
+		{
+			field: 'manufacturer',
+			valueFormatter: (params: { value: string }) => unescapeSymbols(params.value)
+		},
+		{
+			field: 'description',
+			width: 280,
+			valueFormatter: (params: { value: string }) => unescapeSymbols(params.value)
+		},
+		{ field: 'preferred_vendor_display' },
+		{
+			field: 'unit_cost',
+			type: 'numericColumn',
+			valueFormatter: numberValueFormatter,
+			valueParser: numberParser,
+			editable: true,
+			cellEditor: 'agTextCellEditor',
+			aggFunc: 'sum'
 		},
 		{
 			headerName: 'Price Modifier',
@@ -196,28 +112,21 @@
 			}
 		},
 		{
-			field: 'unit_cost',
+			field: 'unit_price',
 			type: 'numericColumn',
 			valueFormatter: numberValueFormatter,
 			valueParser: numberParser,
 			editable: true,
 			cellEditor: 'agTextCellEditor',
-			aggFunc: 'sum'
-		},
-		{
-			field: 'unit_price',
-			type: 'numericColumn',
-			valueFormatter: numberValueFormatter,
-			valueParser: numberParser,
 			aggFunc: 'sum'
 		},
 		{
 			field: 'list_price',
 			type: 'numericColumn',
-			editable: true,
-			cellEditor: 'agTextCellEditor',
 			valueFormatter: numberValueFormatter,
 			valueParser: numberParser,
+			editable: true,
+			cellEditor: 'agTextCellEditor',
 			aggFunc: 'sum'
 		},
 		{
@@ -227,14 +136,154 @@
 			valueParser: numberParser,
 			aggFunc: 'sum'
 		},
+		{ field: 'extended_price', type: 'numericColumn', valueFormatter: numberValueFormatter },
+		{ field: 'extended_list_price', type: 'numericColumn', valueFormatter: numberValueFormatter },
+		{ field: 'freight_sell', type: 'numericColumn', valueFormatter: numberValueFormatter },
+		{ field: 'materials_sell', type: 'numericColumn', valueFormatter: numberValueFormatter },
+		{ field: 'service_sell', type: 'numericColumn', valueFormatter: numberValueFormatter },
+		{ field: 'sundries_sell', type: 'numericColumn', valueFormatter: numberValueFormatter },
+		{ field: 'tax_amount', type: 'numericColumn', valueFormatter: numberValueFormatter },
+		//#region hidden
+		{ field: 'apply_cost_discount', hide: true },
+		{ field: 'created_id', hide: true },
 		{
-			field: 'extended_price',
+			field: 'extended_net_cost',
 			type: 'numericColumn',
 			valueFormatter: numberValueFormatter,
-			valueParser: numberParser,
-			aggFunc: 'sum'
-		}
+			hide: true
+		},
+		{
+			field: 'extended_net_price',
+			type: 'numericColumn',
+			valueFormatter: numberValueFormatter,
+			hide: true
+		},
+		{ field: 'date_created', hide: true },
+		{ field: 'date_modified', hide: true },
+		{ field: 'div_1', headerName: 'Location', hide: true },
+		{ field: 'div_2', headerName: 'System', hide: true },
+		{ field: 'ishighlighted', hide: true },
+		{ field: 'isoptional', hide: true },
+		{ field: 'istaxable', hide: true },
+		{ field: 'labor_task_code', hide: true },
+		{ field: 'line_attributes', hide: true },
+		{ field: 'object_id', hide: true },
+		{ field: 'owner_id', hide: true },
+		{ field: 'owner_team_id', hide: true },
+		{ field: 'modified_id', hide: true },
+		{ field: 'part_number', hide: true },
+		{ field: 'preferred_vendor', hide: true },
+		{ field: 'price_discount_percentage', valueFormatter: percentageValueFormatter, hide: true },
+		{ field: 'name', hide: true },
+		{
+			field: 'net_unit_cost',
+			type: 'numericColumn',
+			valueFormatter: numberValueFormatter,
+			hide: true
+		},
+		{
+			field: 'net_unit_price',
+			type: 'numericColumn',
+			valueFormatter: numberValueFormatter,
+			hide: true
+		},
+		{ field: 'notes', hide: true },
+		{ field: 'qty_labor_install', hide: true },
+		{ field: 'qty_labor_programming', hide: true },
+		{ field: 'related_labor_pricebook', hide: true },
+		{ field: 'record_locator', hide: true },
+		{ field: 'search_string', hide: true },
+		{ field: 'related_quote', hide: true },
+		{ field: 'related_to', hide: true },
+		{ field: 'search_string', hide: true }
+		//#endregion
 	];
+
+	// const columnDefs: MyColumnDef[] = [
+	// 	{
+	// field: 'quantity_total',
+	// type: 'numericColumn',
+	// editable: true,
+	// cellEditor: 'agTextCellEditor',
+	// valueFormatter: numberValueFormatter,
+	// valueParser: numberParser,
+	// aggFunc: 'sum'
+	// 	},
+	// 	{
+	// 		headerName: 'Name',
+	// 		field: 'name',
+	// 		cellEditor: 'agTextCellEditor'
+	// 	},
+	// 	{
+	// 		headerName: 'Price Modifier',
+	// 		field: 'price_modifier',
+	// 		editable: true,
+	// 		cellEditor: 'agTextCellEditor',
+	// 		onCellValueChanged: (params) => {
+	// 			const regex = /^(P|M|D)\d{2}$|^X$|^L$/i;
+	// 			const match = params.newValue.match(regex);
+	// 			if (!match) {
+	// 				alert(
+	// 					`Invalid price modifier format. Format should be one of: \nP##, M##, D##, \nX (without digits)\nL (without digits)`
+	// 				);
+	// 				params.node.setDataValue('price_modifier', params.oldValue);
+	// 			}
+	// 		},
+	// 		cellEditorParams: {
+	// 			validate: (value: string) => {
+	// 				const regex = /^(P|M|D)\d{2}$|^X$|^L$/i;
+	// 				const match = value.match(regex);
+	// 				if (!match) {
+	// 					return {
+	// 						valid: false,
+	// 						message:
+	// 							'Invalid price modifier format. Format should be one \nof: P##, M##, L, D##, \nX (without digits)\nL (without digits)'
+	// 					};
+	// 				}
+	// 				return { valid: true };
+	// 			}
+	// 		}
+	// 	},
+	// 	{
+	// field: 'unit_cost',
+	// type: 'numericColumn',
+	// valueFormatter: numberValueFormatter,
+	// valueParser: numberParser,
+	// editable: true,
+	// cellEditor: 'agTextCellEditor',
+	// aggFunc: 'sum'
+	// 	},
+	// 	{
+	// 		field: 'unit_price',
+	// 		type: 'numericColumn',
+	// 		valueFormatter: numberValueFormatter,
+	// 		valueParser: numberParser,
+	// 		aggFunc: 'sum'
+	// 	},
+	// 	{
+	// 		field: 'list_price',
+	// 		type: 'numericColumn',
+	// 		editable: true,
+	// 		cellEditor: 'agTextCellEditor',
+	// 		valueFormatter: numberValueFormatter,
+	// 		valueParser: numberParser,
+	// 		aggFunc: 'sum'
+	// 	},
+	// 	{
+	// 		field: 'extended_cost',
+	// 		type: 'numericColumn',
+	// 		valueFormatter: numberValueFormatter,
+	// 		valueParser: numberParser,
+	// 		aggFunc: 'sum'
+	// 	},
+	// 	{
+	// 		field: 'extended_price',
+	// 		type: 'numericColumn',
+	// 		valueFormatter: numberValueFormatter,
+	// 		valueParser: numberParser,
+	// 		aggFunc: 'sum'
+	// 	}
+	// ];
 	//here is where we start the grid and pass in the column definitions
 	let grid: Grid;
 
