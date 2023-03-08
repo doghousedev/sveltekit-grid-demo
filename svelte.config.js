@@ -11,6 +11,8 @@ const config = {
 		alias: {
 			$components: './src/components',
 			$lib: './src/lib',
+			$stores: './src/stores',
+			$types: './src/types',
 		},
 		adapter: adapter({ out: 'build' })
 	}

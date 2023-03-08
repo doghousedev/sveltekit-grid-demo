@@ -1,57 +1,66 @@
-<script context="module">
+<script lang="ts">
 	import Textfield from '@smui/textfield';
 	import Icon from '@smui/textfield/icon';
 	import HelperText from '@smui/textfield/helper-text';
 
-	let valueA = '';
-	let valueB = '';
-	let valueC = '';
-	let valueD = '';
+	let materials: number = 0;
+	let shipping: number = 0;
+	let tax: number = 0;
+	let service: number = 0;
+
+	function handleBlur(value: number, fieldName: string) {
+		console.log(`${fieldName} value is:`, value * 10);
+		// Perform any necessary actions with the value
+	}
 </script>
 
-<div id="rates" style:display="none" style:margin-top="5px">
+<div id="rates" style:display="none" style:margin-top="2rem">
 	<div class="columns margins">
 		<div>
 			<Textfield
 				variant="outlined"
-				bind:value={valueA}
+				type="number"
 				label="Materials Rate"
 				style="width: 180px; height:40px;"
+				bind:value={materials}
+				on:blur={() => handleBlur(materials, 'Materials')}
 			>
+				<Icon class="material-icons" slot="trailingIcon">percent</Icon>
 				<HelperText slot="helper" />
 			</Textfield>
 		</div>
 		<div>
 			<Textfield
 				variant="outlined"
-				bind:value={valueB}
 				label="Shipping Rate"
 				style="width: 180px; height:40px;"
+				bind:value={shipping}
 			>
-				<Icon class="material-icons" slot="leadingIcon">shopping_basket</Icon>
+				<Icon class="material-icons" slot="trailingIcon">percent</Icon>
 				<HelperText slot="helper">Typically 6%</HelperText>
 			</Textfield>
 		</div>
 		<div>
 			<Textfield
 				variant="outlined"
-				bind:value={valueC}
 				label="Tax Rate"
 				style="width: 180px; height:40px;"
+				placeholder="Placeholder"
+				bind:value={tax}
 			>
-				<Icon class="material-icons" slot="trailingIcon">done</Icon>
+				<Icon class="material-icons" slot="trailingIcon">percent</Icon>
 				<HelperText slot="helper">Helper Text</HelperText>
 			</Textfield>
 		</div>
 		<div>
 			<Textfield
 				variant="outlined"
-				invalid
-				bind:value={valueD}
-				label="Invalid"
+				label="Service Rate"
 				style="width: 180px; height:40px;"
+				bind:value={service}
 			>
-				<HelperText slot="helper">put something in here</HelperText>
+				<Icon class="material-icons" slot="trailingIcon">percent</Icon>
+				<HelperText slot="helper">This will be replaced with a select</HelperText>
 			</Textfield>
 		</div>
 	</div>

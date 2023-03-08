@@ -25,8 +25,8 @@
 	<div class="drawer-container">
 		<Drawer variant="dismissible" bind:open>
 			<Header>
-				<Title>Svelte Demos</Title>
-				<Subtitle>...just in case</Subtitle>
+				<Title>Net-AV Quoting System</Title>
+				<Subtitle><hr /></Subtitle>
 			</Header>
 			<Content>
 				<List>
@@ -35,7 +35,11 @@
 					</Item>
 
 					<Item href="/grid" activated={path === '/grid'} on:click={() => (open = false)}>
-						<Text>Grid</Text>
+						<Text>Save</Text>
+					</Item>
+
+					<Item href="/snacks" activated={path === '/snacks'} on:click={() => (open = false)}>
+						<Text>Save As</Text>
 					</Item>
 				</List>
 			</Content>

@@ -383,14 +383,27 @@
 	style:flex-direction="column"
 	style:height="800px"
 >
-	<div style:text-align="end" style:margin-bottom="15px">
-		<Icon class="material-icons" slot="leadingIcon">search</Icon>
-		<Textfield
-			class="shaped-outlined"
-			variant="standard"
-			bind:value={filterString}
-			label="Search"
-		/>
+	<div style="display: flex; justify-content: space-between;">
+		<div style="text-align: start; margin-bottom: 15px;">
+			<Icon class="material-icons" slot="leadingIcon">search</Icon>
+			<Textfield
+				class="shaped-outlined"
+				variant="standard"
+				style="width: 800px;"
+				bind:value={filterString}
+				label="Pricebook"
+			/>
+			<Icon class="material-icons" slot="leadingIcon">menu</Icon>
+		</div>
+		<div style="text-align: end; margin-bottom: 15px;">
+			<Icon class="material-icons" slot="leadingIcon">screen_search_desktopd</Icon>
+			<Textfield
+				class="shaped-outlined"
+				variant="standard"
+				bind:value={filterString}
+				label="Find"
+			/>
+		</div>
 	</div>
 </div>
 <div class="column">

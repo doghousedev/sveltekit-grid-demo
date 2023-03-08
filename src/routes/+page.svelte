@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { onMount, onDestroy } from 'svelte';
 	//smui
 	import Button from '@smui/button';
 	import Select, { Option } from '@smui/select';
@@ -41,12 +42,8 @@
 			}
 		});
 	}
-	function sayHi(v: string) {
-		console.log('hi from svelte', v);
-	}
+
 	//#endregion
-	let value: string = '';
-	$: sayHi(value);
 </script>
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -57,8 +54,14 @@
 	</div>
 
 	<div style="margin-left: 10px;">
-		<Select class="shaped-filled" variant="outlined" bind:value>
+		<Select class="shaped-filled" variant="outlined">
 			<Option value="">Select an option</Option>
+			<optgroup label="File">
+				<Option value="New">New</Option>
+				<Option value="Open">Open</Option>
+				<Option value="Save">Save</Option>
+				<Option value="Save As">Save As</Option>
+			</optgroup>
 			<Option value="views">Views</Option>
 			<Option value="reports">Reports</Option>
 			<Option value="preferences">Preferences</Option>
@@ -75,9 +78,7 @@
 
 <!-- <Grid /> -->
 <QuoteItemsGrid />
-<!-- <Grid2 /> -->
 
-<!-- icons for future reference https://fonts.google.com/icons?icon.set=Material+Icons -->
 <style lang="scss">
 	* :global(.shaped-outlined .mdc-notched-outline .mdc-notched-outline__leading) {
 		border-radius: 28px 0 0 28px;
