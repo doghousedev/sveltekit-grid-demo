@@ -20,6 +20,9 @@
 		percentageValueFormatter,
 		unescapeSymbols
 	} from '$lib/utility_functions';
+	import Button from '@smui/button/src/Button.svelte';
+
+	import handleBlur from '$components/Rates.svelte';
 
 	let rd: any[] = [];
 
@@ -266,7 +269,7 @@
 		},
 		onCellValueChanged: function (params) {
 			// perform any necessary updates to your application state
-			recalcualteTotals(params);
+			recalculateTotals(params);
 			//console.log('Cell data has changed:', params);
 		}
 	};
@@ -309,8 +312,15 @@
 			gridOptions.api?.setFocusedCell(rowcount, firstCol!);
 		}, 50);
 	}
+	//////////////////////////////////
+	export let inputValue: any;
 
-	function recalcualteTotals(params: any) {
+	export function rc(inputValue: any) {
+		console.log('helo', inputValue);
+	}
+	$: rc(inputValue);
+
+	export function recalculateTotals(params: any) {
 		function calculateUnitPrice(row: any) {
 			const pMod = row.price_modifier.toUpperCase();
 
@@ -364,6 +374,11 @@
 		gridOptions.api?.applyTransaction(row);
 	}
 
+	function sayHi(event: { isTrusted: any }) {
+		console.log('hi', event.isTrusted);
+		alert('modal popup- maybe use swal or us smui dialog?');
+	}
+
 	let error = false;
 
 	let filterString = '';
@@ -385,7 +400,6 @@
 >
 	<div style="display: flex; justify-content: space-between;">
 		<div style="text-align: start; margin-bottom: 15px;">
-			<Icon class="material-icons" slot="leadingIcon">search</Icon>
 			<Textfield
 				class="shaped-outlined"
 				variant="standard"
@@ -393,6 +407,9 @@
 				bind:value={filterString}
 				label="Pricebook"
 			/>
+			<Button on:click={sayHi}>
+				<Icon class="material-icons">search</Icon>
+			</Button>
 			<Icon class="material-icons" slot="leadingIcon">menu</Icon>
 		</div>
 		<div style="text-align: end; margin-bottom: 15px;">

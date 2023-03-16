@@ -8,10 +8,20 @@
 	let tax: number = 0;
 	let service: number = 0;
 
-	function handleBlur(value: number, fieldName: string) {
+	export function handleBlur(value: number, fieldName: string) {
 		console.log(`${fieldName} value is:`, value * 10);
 		// Perform any necessary actions with the value
 	}
+
+	///////////////////////////////////
+	import { createEventDispatcher } from 'svelte';
+
+	const dispatch = createEventDispatcher();
+
+	function handleChange(event: { target: { value: any } }) {
+		dispatch('inputChange', event.target.value);
+	}
+	//////////////////////////////////
 </script>
 
 <div id="rates" style:display="none" style:margin-top="2rem">
@@ -23,7 +33,7 @@
 				label="Materials Rate"
 				style="width: 180px; height:40px;"
 				bind:value={materials}
-				on:blur={() => handleBlur(materials, 'Materials')}
+				on:input={handleChange}
 			>
 				<Icon class="material-icons" slot="trailingIcon">percent</Icon>
 				<HelperText slot="helper" />

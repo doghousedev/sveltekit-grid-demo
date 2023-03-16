@@ -42,8 +42,17 @@
 			}
 		});
 	}
+	export let inputValueDefault: number = 0;
 
 	//#endregion
+
+	/////////////////////////////////
+	let inputValue = '';
+
+	function handleInput(inputValue: any) {
+		inputValue = inputValue;
+	}
+	////////////////////////////////
 </script>
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -56,12 +65,6 @@
 	<div style="margin-left: 10px;">
 		<Select class="shaped-filled" variant="outlined">
 			<Option value="">Select an option</Option>
-			<optgroup label="File">
-				<Option value="New">New</Option>
-				<Option value="Open">Open</Option>
-				<Option value="Save">Save</Option>
-				<Option value="Save As">Save As</Option>
-			</optgroup>
 			<Option value="views">Views</Option>
 			<Option value="reports">Reports</Option>
 			<Option value="preferences">Preferences</Option>
@@ -73,11 +76,8 @@
 <QuoteInfo />
 
 <Client />
-
-<Rates />
-
-<!-- <Grid /> -->
-<QuoteItemsGrid />
+<Rates on:inputChange={handleInput} />
+<QuoteItemsGrid {inputValue} />
 
 <style lang="scss">
 	* :global(.shaped-outlined .mdc-notched-outline .mdc-notched-outline__leading) {
