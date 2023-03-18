@@ -385,6 +385,15 @@
 	// bind to changes of filterString to our eventHandler :)
 	$: filterString, onFilterStringChange();
 
+	//bind using the PriceBook Search String
+	let pricebookSearchString = '';
+	const onpricebookSearchString = () => {
+		console.log({ pricebookSearchString });
+	};
+
+	// bind to changes of filterString to our eventHandler :)
+	$: pricebookSearchString, onpricebookSearchString();
+
 	///////////////////////////////////////////////////////////
 	let rateVisible = false;
 	function toggleRatesDiv(id: string) {
@@ -414,8 +423,8 @@
 	style:flex-direction="column"
 	style:height="800px"
 >
-	<Button on:click={() => toggleRatesDiv('rates')}
-		>Rates
+	<Button on:click={() => toggleRatesDiv('rates')} color="secondary">
+		rates
 		<Icon class="material-icons">menu</Icon></Button
 	>
 
@@ -469,8 +478,8 @@
 			<Textfield
 				class="shaped-outlined"
 				variant="standard"
-				style="width: 800px;"
-				bind:value={filterString}
+				style="width: 600px;"
+				bind:value={pricebookSearchString}
 				label="Search Pricebook"
 			/>
 			<Button on:click={sayHi}>
@@ -478,7 +487,6 @@
 			</Button>
 		</div>
 		<div style="text-align: end; margin-bottom: 15px;">
-			<Icon class="material-icons" slot="leadingIcon">screen_search_desktopd</Icon>
 			<Textfield
 				class="shaped-outlined"
 				variant="standard"
@@ -487,16 +495,6 @@
 			/>
 		</div>
 	</div>
-</div>
-<div class="column">
-	{#if error}
-		<div class="py-2">
-			<div class="notification is-danger">
-				<button class="delete" on:click={() => (error = false)} />
-				Error saving changes
-			</div>
-		</div>
-	{/if}
 </div>
 
 <style lang="scss" global>

@@ -35,11 +35,18 @@
 					</Item>
 
 					<Item href="/grid" activated={path === '/grid'} on:click={() => (open = false)}>
+						<Text>New</Text>
+					</Item>
+
+					<Item href="/grid" activated={path === '/grid'} on:click={() => (open = false)}>
 						<Text>Save</Text>
 					</Item>
 
 					<Item href="/snacks" activated={path === '/snacks'} on:click={() => (open = false)}>
 						<Text>Save As</Text>
+					</Item>
+					<Item href="/grid" activated={path === '/grid'} on:click={() => (open = false)}>
+						<Text>Print</Text>
 					</Item>
 				</List>
 			</Content>
