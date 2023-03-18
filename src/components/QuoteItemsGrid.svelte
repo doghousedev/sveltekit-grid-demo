@@ -365,8 +365,58 @@
 		row.extended_net_cost = row.extended_cost;
 		row.extended_net_price = row.extended_price;
 		row.price_modifier = row.price_modifier.toUpperCase();
+		row.materials_sell =
+			row.job_cost_class == 'Equipment'
+				? (parseFloat(row.extended_price) * rates.material) / 100
+				: row.materials_sell;
+		row.freight_sell =
+			row.job_cost_class == 'Equipment'
+				? (parseFloat(row.extended_price) * rates.freight) / 100
+				: row.freight_sell;
+		row.tax_sell = row.istaxable
+			? (parseFloat(row.extended_price) * rates.tax) / 100
+			: row.tax_sell;
+		row.service_sell =
+			row.job_cost_class == 'Equipment'
+				? (parseFloat(row.extended_price) * rates.service) / 100
+				: row.service_sell;
 
 		gridOptions.api?.applyTransaction(row);
+	}
+
+	export function recalculateRates() {
+		gridOptions.api?.forEachNode((node) => {
+			const data = node.data;
+			console.log(data.pricebook_part_number, data.materials_sell);
+			data.materials_sell = (parseFloat(data.extended_price) * rates.material) / 100;
+			console.log(data.pricebook_part_number, data.materials_sell);
+			gridOptions.api?.applyTransaction(data);
+		});
+	}
+
+	function saveState() {
+		const columnState = gridOptions.columnApi?.getColumnState();
+		const groupState = gridOptions.columnApi?.getColumnGroupState();
+		const filterState = gridOptions.api?.getFilterModel();
+		console.log(groupState);
+
+		// Store the state in local storage
+		localStorage.setItem('columnState', JSON.stringify(columnState));
+		localStorage.setItem('groupState', JSON.stringify(groupState));
+		localStorage.setItem('filterState', JSON.stringify(filterState));
+	}
+
+	function restoreState() {
+		const columnState = JSON.parse(localStorage.getItem('columnState')!);
+		const filterState = JSON.parse(localStorage.getItem('filterState')!);
+		const groupState = JSON.parse(localStorage.getItem('groupState')!);
+
+		console.log(columnState, filterState, groupState);
+
+		// Restore the state
+		gridOptions.columnApi?.applyColumnState(columnState);
+		gridOptions.columnApi?.setColumnGroupState(groupState);
+		gridOptions.api?.setFilterModel(filterState);
 	}
 
 	function sayHi(event: { isTrusted: any }) {
@@ -408,7 +458,7 @@
 
 	let rates = {
 		material: 6.0,
-		shipping: 6.0,
+		freight: 6.0,
 		tax: 6.0,
 		service: 10.0
 	};
@@ -423,11 +473,14 @@
 	style:flex-direction="column"
 	style:height="800px"
 >
-	<Button on:click={() => toggleRatesDiv('rates')} color="secondary">
-		rates
-		<Icon class="material-icons">menu</Icon></Button
-	>
-
+	<div class="flex-container">
+		<Button on:click={() => toggleRatesDiv('rates')} color="secondary">
+			rates
+			<Icon class="material-icons">menu</Icon></Button
+		>
+		<Button on:click={saveState}>Save State</Button>
+		<Button on:click={restoreState}>Restore State</Button>
+	</div>
 	<div class="flex-container" id="rates" style="display:none">
 		<labl class="label-container"> Materials</labl>
 		<Textfield
@@ -436,6 +489,7 @@
 			type="number"
 			input$step=".1"
 			bind:value={rates.material}
+			on:blur={recalculateRates}
 		>
 			<Icon class="material-icons" slot="trailingIcon">percent</Icon>
 		</Textfield>
@@ -445,7 +499,7 @@
 			variant="outlined"
 			type="number"
 			input$step=".1"
-			bind:value={rates.shipping}
+			bind:value={rates.freight}
 		>
 			<Icon class="material-icons" slot="trailingIcon">percent</Icon>
 		</Textfield>
