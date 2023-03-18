@@ -11,16 +11,10 @@
 	export function handleBlur(value: number, fieldName: string) {
 		console.log(`${fieldName} value is:`, value * 10);
 		// Perform any necessary actions with the value
+		return;
 	}
 
 	///////////////////////////////////
-	import { createEventDispatcher } from 'svelte';
-
-	const dispatch = createEventDispatcher();
-
-	function handleChange(event: { target: { value: any } }) {
-		dispatch('inputChange', event.target.value);
-	}
 	//////////////////////////////////
 </script>
 
@@ -33,7 +27,7 @@
 				label="Materials Rate"
 				style="width: 180px; height:40px;"
 				bind:value={materials}
-				on:input={handleChange}
+				on:input={handleBlur(materials, 'materials')}
 			>
 				<Icon class="material-icons" slot="trailingIcon">percent</Icon>
 				<HelperText slot="helper" />

@@ -1,7 +1,10 @@
 <script lang="ts">
+	//smui
+	import Button from '@smui/button';
 	import CircularProgress from '@smui/circular-progress';
 	import Textfield from '@smui/textfield';
 	import Icon from '@smui/textfield/icon';
+	import HelperText from '@smui/textfield/helper-text';
 
 	import { onMount } from 'svelte';
 	import { Grid } from 'ag-grid-community';
@@ -20,7 +23,6 @@
 		percentageValueFormatter,
 		unescapeSymbols
 	} from '$lib/utility_functions';
-	import Button from '@smui/button/src/Button.svelte';
 
 	import handleBlur from '$components/Rates.svelte';
 
@@ -312,13 +314,6 @@
 			gridOptions.api?.setFocusedCell(rowcount, firstCol!);
 		}, 50);
 	}
-	//////////////////////////////////
-	export let inputValue: any;
-
-	export function rc(inputValue: any) {
-		console.log('helo', inputValue);
-	}
-	$: rc(inputValue);
 
 	export function recalculateTotals(params: any) {
 		function calculateUnitPrice(row: any) {
@@ -389,6 +384,27 @@
 
 	// bind to changes of filterString to our eventHandler :)
 	$: filterString, onFilterStringChange();
+
+	///////////////////////////////////////////////////////////
+	let rateVisible = false;
+	function toggleRatesDiv(id: string) {
+		const div = document.getElementById(id) as HTMLDivElement;
+		rateVisible = !rateVisible;
+		if (rateVisible) {
+			div.style.display = 'flex';
+		} else {
+			div.style.display = 'none';
+		}
+	}
+
+	let rates = {
+		material: 6.0,
+		shipping: 6.0,
+		tax: 6.0,
+		service: 10.0
+	};
+	$: console.log({ ...rates });
+	///////////////////////////////////////
 </script>
 
 <div
@@ -398,6 +414,56 @@
 	style:flex-direction="column"
 	style:height="800px"
 >
+	<Button on:click={() => toggleRatesDiv('rates')}
+		>Rates
+		<Icon class="material-icons">menu</Icon></Button
+	>
+
+	<div class="flex-container" id="rates" style="display:none">
+		<labl class="label-container"> Materials</labl>
+		<Textfield
+			style="width: 120px; height:40px; margin-right: 10px;"
+			variant="outlined"
+			type="number"
+			input$step=".1"
+			bind:value={rates.material}
+		>
+			<Icon class="material-icons" slot="trailingIcon">percent</Icon>
+		</Textfield>
+		<labl class="label-container"> Shipping</labl>
+		<Textfield
+			style="width: 120px; height:40px; margin-right: 10px;"
+			variant="outlined"
+			type="number"
+			input$step=".1"
+			bind:value={rates.shipping}
+		>
+			<Icon class="material-icons" slot="trailingIcon">percent</Icon>
+		</Textfield>
+		<labl class="label-container"> Tax</labl>
+		<Textfield
+			style="width: 120px; height:40px; margin-right: 10px;"
+			variant="outlined"
+			type="number"
+			input$step=".1"
+			bind:value={rates.tax}
+		>
+			<Icon class="material-icons" slot="trailingIcon">percent</Icon>
+		</Textfield>
+		<labl class="label-container"> Service</labl>
+		<Textfield
+			style="width: 120px; height:40px; margin-right: 10px;"
+			variant="outlined"
+			type="number"
+			input$step=".1"
+			bind:value={rates.service}
+		>
+			<Icon class="material-icons" slot="trailingIcon">percent</Icon>
+		</Textfield>
+		<br />
+		<hr />
+	</div>
+
 	<div style="display: flex; justify-content: space-between;">
 		<div style="text-align: start; margin-bottom: 15px;">
 			<Textfield
@@ -405,12 +471,11 @@
 				variant="standard"
 				style="width: 800px;"
 				bind:value={filterString}
-				label="Pricebook"
+				label="Search Pricebook"
 			/>
 			<Button on:click={sayHi}>
 				<Icon class="material-icons">search</Icon>
 			</Button>
-			<Icon class="material-icons" slot="leadingIcon">menu</Icon>
 		</div>
 		<div style="text-align: end; margin-bottom: 15px;">
 			<Icon class="material-icons" slot="leadingIcon">screen_search_desktopd</Icon>
@@ -466,5 +531,18 @@
 		--ag-checkbox-checked-color: dodgerblue;
 		--ag-checkbox-unchecked-color: $blue-grey-500;
 		--ag-checkbox-indeterminate-color: grey;
+	}
+
+	.flex-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #f1f1f1;
+	}
+	.label-container {
+		width: 80px;
+		margin: 0.5rem;
+		text-align: right;
+		font-weight: 700;
 	}
 </style>

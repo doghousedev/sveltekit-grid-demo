@@ -24,11 +24,11 @@
 		{
 			id: 'ag-grid',
 			label: 'Items'
-		},
-		{
-			id: 'rates',
-			label: 'Rates'
 		}
+		// {
+		// 	id: 'rates',
+		// 	label: 'Rates'
+		// }
 	];
 
 	// Define a function to handle button clicks and toggle the visibility of the divs
@@ -42,17 +42,8 @@
 			}
 		});
 	}
-	export let inputValueDefault: number = 0;
 
 	//#endregion
-
-	/////////////////////////////////
-	let inputValue = '';
-
-	function handleInput(inputValue: any) {
-		inputValue = inputValue;
-	}
-	////////////////////////////////
 </script>
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -76,8 +67,8 @@
 <QuoteInfo />
 
 <Client />
-<Rates on:inputChange={handleInput} />
-<QuoteItemsGrid {inputValue} />
+<!-- <Rates /> -->
+<QuoteItemsGrid />
 
 <style lang="scss">
 	* :global(.shaped-outlined .mdc-notched-outline .mdc-notched-outline__leading) {
