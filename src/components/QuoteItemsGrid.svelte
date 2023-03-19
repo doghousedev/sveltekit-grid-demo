@@ -37,9 +37,11 @@
 		hide?: boolean;
 		checkboxSelection?: boolean;
 		editable?: boolean;
+		enableRowGroup?: boolean;
+		enableValue?: boolean;
 		type?: string;
 		valueFormatter?: (params: { value: any }) => string;
-		valueParser?: (params: { newValue: any }) => number | string;
+		valueParser?: (params: { newValue: any }) => number;
 		aggFunc?: string;
 		cellEditor?: string;
 		cellEditorParams?: any;
@@ -48,10 +50,11 @@
 
 	const columnDefs: MyColumnDef[] = [
 		{ field: 'id', editable: false, checkboxSelection: true },
-		{ field: 'job_cost_class' },
-		{ field: 'category_id' },
+		{ field: 'job_cost_class', headerName: 'Cost Class' },
+		{ field: 'category_id', headerName: 'Category' },
 		{
 			field: 'quantity_total',
+			headerName: 'Quantity',
 			type: 'numericColumn',
 			editable: true,
 			cellEditor: 'agTextCellEditor',
@@ -60,25 +63,29 @@
 			aggFunc: 'sum'
 		},
 
-		{ field: 'uom', width: minWidth },
-		{ field: 'pricebook_part_number' },
+		{ field: 'uom', width: minWidth, headerName: 'UoM' },
+		{ field: 'pricebook_part_number', headerName: 'Part No.' },
 		{
 			field: 'model_name',
-			valueFormatter: (params: { value: string }) => unescapeSymbols(params.value)
+			valueFormatter: (params: { value: string }) => unescapeSymbols(params.value),
+			headerName: 'Model'
 		},
 		{ field: 'mfg_link' },
 		{
 			field: 'manufacturer',
+			headerName: 'Mfg.',
 			valueFormatter: (params: { value: string }) => unescapeSymbols(params.value)
 		},
 		{
 			field: 'description',
+			headerName: 'Description',
 			width: 280,
 			valueFormatter: (params: { value: string }) => unescapeSymbols(params.value)
 		},
-		{ field: 'preferred_vendor_display' },
+		{ field: 'preferred_vendor_display', headerName: 'Preferred Vendor' },
 		{
 			field: 'unit_cost',
+			headerName: 'Unit Cost',
 			type: 'numericColumn',
 			valueFormatter: numberValueFormatter,
 			valueParser: numberParser,
@@ -87,8 +94,8 @@
 			aggFunc: 'sum'
 		},
 		{
-			headerName: 'Price Modifier',
 			field: 'price_modifier',
+			headerName: 'Price Modifier',
 			editable: true,
 			cellEditor: 'agTextCellEditor',
 			onCellValueChanged: (params) => {
@@ -118,6 +125,7 @@
 		},
 		{
 			field: 'unit_price',
+			headerName: 'Unit Price',
 			type: 'numericColumn',
 			valueFormatter: numberValueFormatter,
 			valueParser: numberParser,
@@ -127,6 +135,7 @@
 		},
 		{
 			field: 'list_price',
+			headerName: 'List Price',
 			type: 'numericColumn',
 			valueFormatter: numberValueFormatter,
 			valueParser: numberParser,
@@ -136,18 +145,56 @@
 		},
 		{
 			field: 'extended_cost',
+			headerName: 'Extended Cost',
 			type: 'numericColumn',
 			valueFormatter: numberValueFormatter,
 			valueParser: numberParser,
-			aggFunc: 'sum'
+			aggFunc: 'sum',
+			enableRowGroup: true,
+			enableValue: true
 		},
-		{ field: 'extended_price', type: 'numericColumn', valueFormatter: numberValueFormatter },
-		{ field: 'extended_list_price', type: 'numericColumn', valueFormatter: numberValueFormatter },
-		{ field: 'freight_sell', type: 'numericColumn', valueFormatter: numberValueFormatter },
-		{ field: 'materials_sell', type: 'numericColumn', valueFormatter: numberValueFormatter },
-		{ field: 'service_sell', type: 'numericColumn', valueFormatter: numberValueFormatter },
-		{ field: 'sundries_sell', type: 'numericColumn', valueFormatter: numberValueFormatter },
-		{ field: 'tax_amount', type: 'numericColumn', valueFormatter: numberValueFormatter },
+		{
+			field: 'extended_price',
+			headerName: 'Extended Cost',
+			type: 'numericColumn',
+			valueFormatter: numberValueFormatter
+		},
+		{
+			field: 'extended_list_price',
+			headerName: 'Extended List',
+			type: 'numericColumn',
+			valueFormatter: numberValueFormatter
+		},
+		{
+			field: 'freight_sell',
+			headerName: 'Freight',
+			type: 'numericColumn',
+			valueFormatter: numberValueFormatter
+		},
+		{
+			field: 'materials_sell',
+			headerName: 'Materials',
+			type: 'numericColumn',
+			valueFormatter: numberValueFormatter
+		},
+		{
+			field: 'service_sell',
+			headerName: 'Service',
+			type: 'numericColumn',
+			valueFormatter: numberValueFormatter
+		},
+		{
+			field: 'sundries_sell',
+			headerName: 'Sundries',
+			type: 'numericColumn',
+			valueFormatter: numberValueFormatter
+		},
+		{
+			field: 'tax_amount',
+			headerName: 'Tax',
+			type: 'numericColumn',
+			valueFormatter: numberValueFormatter
+		},
 		//#region hidden
 		{ field: 'apply_cost_discount', hide: true },
 		{ field: 'created_id', hide: true },
@@ -208,6 +255,17 @@
 	let grid: Grid;
 
 	const gridOptions: GridOptions = {
+		autoGroupColumnDef: {
+			cellRendererParams: {
+				footerValueGetter: (params: { node: { level: number }; value: any }) => {
+					const isRootLevel = params.node.level === -1;
+					if (isRootLevel) {
+						return 'Grand Total';
+					}
+					return `Sub Total (${params.value})`;
+				}
+			}
+		},
 		columnDefs: columnDefs,
 		getContextMenuItems: getContextMenuItems,
 		defaultColDef: {
@@ -219,6 +277,8 @@
 			enableRowGroup: true,
 			enablePivot: true
 		},
+		groupIncludeFooter: true,
+		groupIncludeTotalFooter: true,
 		pagination: false,
 		paginationPageSize: 20,
 		rowData: [],
@@ -272,6 +332,7 @@
 		onCellValueChanged: function (params) {
 			// perform any necessary updates to your application state
 			recalculateTotals(params);
+			recalculateRates();
 			//console.log('Cell data has changed:', params);
 		}
 	};
@@ -373,9 +434,9 @@
 			row.job_cost_class == 'Equipment'
 				? (parseFloat(row.extended_price) * rates.freight) / 100
 				: row.freight_sell;
-		row.tax_sell = row.istaxable
+		row.tax_amount = row.istaxable
 			? (parseFloat(row.extended_price) * rates.tax) / 100
-			: row.tax_sell;
+			: row.tax_amount;
 		row.service_sell =
 			row.job_cost_class == 'Equipment'
 				? (parseFloat(row.extended_price) * rates.service) / 100
@@ -387,9 +448,10 @@
 	export function recalculateRates() {
 		gridOptions.api?.forEachNode((node) => {
 			const data = node.data;
-			console.log(data.pricebook_part_number, data.materials_sell);
 			data.materials_sell = (parseFloat(data.extended_price) * rates.material) / 100;
-			console.log(data.pricebook_part_number, data.materials_sell);
+			data.freight_sell = (parseFloat(data.extended_price) * rates.freight) / 100;
+			data.tax_amount = (parseFloat(data.extended_price) * rates.tax) / 100;
+			data.service_sell = (parseFloat(data.extended_price) * rates.service) / 100;
 			gridOptions.api?.applyTransaction(data);
 		});
 	}
@@ -398,7 +460,7 @@
 		const columnState = gridOptions.columnApi?.getColumnState();
 		const groupState = gridOptions.columnApi?.getColumnGroupState();
 		const filterState = gridOptions.api?.getFilterModel();
-		console.log(groupState);
+		console.log(columnState);
 
 		// Store the state in local storage
 		localStorage.setItem('columnState', JSON.stringify(columnState));
@@ -408,15 +470,21 @@
 
 	function restoreState() {
 		const columnState = JSON.parse(localStorage.getItem('columnState')!);
-		const filterState = JSON.parse(localStorage.getItem('filterState')!);
 		const groupState = JSON.parse(localStorage.getItem('groupState')!);
-
-		console.log(columnState, filterState, groupState);
+		const filterState = JSON.parse(localStorage.getItem('filterState')!);
 
 		// Restore the state
-		gridOptions.columnApi?.applyColumnState(columnState);
+		gridOptions.columnApi?.applyColumnState({
+			state: columnState,
+			applyOrder: true
+		});
 		gridOptions.columnApi?.setColumnGroupState(groupState);
 		gridOptions.api?.setFilterModel(filterState);
+	}
+
+	function resetState() {
+		gridOptions.columnApi?.resetColumnState();
+		console.log('column state reset');
 	}
 
 	function sayHi(event: { isTrusted: any }) {
@@ -480,6 +548,7 @@
 		>
 		<Button on:click={saveState}>Save State</Button>
 		<Button on:click={restoreState}>Restore State</Button>
+		<Button on:click={resetState}>Reset State</Button>
 	</div>
 	<div class="flex-container" id="rates" style="display:none">
 		<labl class="label-container"> Materials</labl>
@@ -500,6 +569,7 @@
 			type="number"
 			input$step=".1"
 			bind:value={rates.freight}
+			on:blur={recalculateRates}
 		>
 			<Icon class="material-icons" slot="trailingIcon">percent</Icon>
 		</Textfield>
@@ -510,6 +580,7 @@
 			type="number"
 			input$step=".1"
 			bind:value={rates.tax}
+			on:blur={recalculateRates}
 		>
 			<Icon class="material-icons" slot="trailingIcon">percent</Icon>
 		</Textfield>
@@ -520,6 +591,7 @@
 			type="number"
 			input$step=".1"
 			bind:value={rates.service}
+			on:blur={recalculateRates}
 		>
 			<Icon class="material-icons" slot="trailingIcon">percent</Icon>
 		</Textfield>

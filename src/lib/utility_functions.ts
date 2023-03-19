@@ -40,7 +40,7 @@ export function numberValueFormatter(params: any) {
     if (isNaN(value)) {
         return params.value;
     } else {
-        return value.toFixed(2);
+        return value.toFixed(2).toString();
     }
 }
 
@@ -63,7 +63,7 @@ export function createFlagImg(flag: string) {
 
 export function getContextMenuItems(params: any) {
     console.log({ params });
-    var result = [
+    const result = [
         {
             // custom item
             name: 'Alert ' + params.value,
