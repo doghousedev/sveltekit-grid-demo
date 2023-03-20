@@ -1,0 +1,3551 @@
+{
+    "platform": {
+        "message": {
+            "code": "0",
+            "description": "Success"
+        },
+        "record": [
+            {
+                "id": "1455921067",
+                "manufacturer_link": {
+                    "content": "266156773",
+                    "displayValue": "Biamp Systems, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/266156773"
+                },
+                "part_number": "DM"
+            },
+            {
+                "id": "184346659",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-8G-CONN-100"
+            },
+            {
+                "id": "608405853",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-8G-CONN-WG-100"
+            },
+            {
+                "id": "209977789",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-8G-CRIMP"
+            },
+            {
+                "id": "193087901",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-8G-CRIMP-WG"
+            },
+            {
+                "id": "1297863435",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-8G-CRIMP-WG-STARTER_PAK"
+            },
+            {
+                "id": "1075317964",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-8G-NP-SP1000"
+            },
+            {
+                "id": "384921206",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-8G-NP-SP500"
+            },
+            {
+                "id": "660380568",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-8G-P-SP1000"
+            },
+            {
+                "id": "1775793794",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-8G-P-SP500"
+            },
+            {
+                "id": "370110379",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-D-NP-SP500"
+            },
+            {
+                "id": "1636662302",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-D-P-SP500"
+            },
+            {
+                "id": "787067710",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-NP-SP500"
+            },
+            {
+                "id": "1229530734",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-P-SP500"
+            },
+            {
+                "id": "1836804424",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-ULTRA-LSZH-SP1000"
+            },
+            {
+                "id": "1453138273",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-ULTRA-LSZH-SP500"
+            },
+            {
+                "id": "38889588",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-ULTRA-NP-SP1000"
+            },
+            {
+                "id": "1695133360",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-ULTRA-NP-SP500"
+            },
+            {
+                "id": "1834111443",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-ULTRA-P-B-SP1000"
+            },
+            {
+                "id": "107748055",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-ULTRA-P-SP1000"
+            },
+            {
+                "id": "852173113",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-ULTRA-P-SP500"
+            },
+            {
+                "id": "388168209",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-ULTRA-PC-1.5"
+            },
+            {
+                "id": "648700348",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-ULTRA-PC-10"
+            },
+            {
+                "id": "1302602798",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-ULTRA-PC-15"
+            },
+            {
+                "id": "131653779",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-ULTRA-PC-20"
+            },
+            {
+                "id": "1886392512",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-ULTRA-PC-3"
+            },
+            {
+                "id": "1006103758",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-ULTRA-PC-5"
+            },
+            {
+                "id": "177595230",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-ULTRA-PC-50"
+            },
+            {
+                "id": "2091739003",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CBL-ULTRA-PC-7"
+            },
+            {
+                "id": "1208352897",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CONN-20"
+            },
+            {
+                "id": "937537819",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CONN-ULTRA-PLUG-20"
+            },
+            {
+                "id": "147826990",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CONN-ULTRA-RECP-20"
+            },
+            {
+                "id": "542711608",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CONN-ULTRA-RECP-50"
+            },
+            {
+                "id": "630410986",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CONN-ULTRA-RECP-XA-20"
+            },
+            {
+                "id": "873153984",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CRIMP-ULTRA-PLUG"
+            },
+            {
+                "id": "1136999773",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-CRIMP-ULTRA-RECP-XA"
+            },
+            {
+                "id": "818786411",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-DA4-4K-C"
+            },
+            {
+                "id": "1574721515",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-DGE-200-C"
+            },
+            {
+                "id": "1149843437",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-DR"
+            },
+            {
+                "id": "1597259225",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MD128X128"
+            },
+            {
+                "id": "765246782",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MD16X16"
+            },
+            {
+                "id": "2069166703",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MD16X16-CPU3"
+            },
+            {
+                "id": "1149648001",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MD16X16-CPU3-RPS"
+            },
+            {
+                "id": "1996265410",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MD16X16-RPS"
+            },
+            {
+                "id": "868453295",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MD32X32"
+            },
+            {
+                "id": "2092038952",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MD32X32-CPU3"
+            },
+            {
+                "id": "1939142330",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MD32X32-CPU3-RPS"
+            },
+            {
+                "id": "1114547718",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MD32X32-RPS"
+            },
+            {
+                "id": "787238561",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MD64X64"
+            },
+            {
+                "id": "586981506",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MD6X1"
+            },
+            {
+                "id": "1358048597",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MD6X4"
+            },
+            {
+                "id": "450059136",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MD6X6"
+            },
+            {
+                "id": "1131695681",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MD8X1-4K-C"
+            },
+            {
+                "id": "1488484175",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MD8X8"
+            },
+            {
+                "id": "1437958833",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MD8X8-CPU3"
+            },
+            {
+                "id": "1293816066",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MD8X8-CPU3-RPS"
+            },
+            {
+                "id": "622273898",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MD8X8-RPS"
+            },
+            {
+                "id": "131510394",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MDA-128-FANTRAY"
+            },
+            {
+                "id": "1718550855",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MDA-128-PWS"
+            },
+            {
+                "id": "1759021555",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MDA-64-FANTRAY"
+            },
+            {
+                "id": "158568766",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-MDA-64-PWS"
+            },
+            {
+                "id": "1206493287",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NAX-16AIN"
+            },
+            {
+                "id": "1584402304",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NAX-8ZSA"
+            },
+            {
+                "id": "337131761",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-350"
+            },
+            {
+                "id": "387388661",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-350C"
+            },
+            {
+                "id": "389516547",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-351"
+            },
+            {
+                "id": "1150524858",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-351C"
+            },
+            {
+                "id": "1550195443",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-352"
+            },
+            {
+                "id": "2078970188",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-352C"
+            },
+            {
+                "id": "1713563257",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-360"
+            },
+            {
+                "id": "1139428785",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-360C"
+            },
+            {
+                "id": "185521376",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-363"
+            },
+            {
+                "id": "191279420",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-363C"
+            },
+            {
+                "id": "514252381",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-D10"
+            },
+            {
+                "id": "76547635",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-D20"
+            },
+            {
+                "id": "371838490",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-D200"
+            },
+            {
+                "id": "1969992092",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-D30"
+            },
+            {
+                "id": "398651719",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-D30C"
+            },
+            {
+                "id": "601297134",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-D80-IOAV"
+            },
+            {
+                "id": "1426359013",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-DIR-160"
+            },
+            {
+                "id": "1119453439",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-DIR-80"
+            },
+            {
+                "id": "1849345668",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-DIR-ENT"
+            },
+            {
+                "id": "93411035",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-E10"
+            },
+            {
+                "id": "893742990",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-E20"
+            },
+            {
+                "id": "1985311601",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-E30"
+            },
+            {
+                "id": "288404350",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-E30C"
+            },
+            {
+                "id": "1967966560",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-E363"
+            },
+            {
+                "id": "2058961606",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-E760"
+            },
+            {
+                "id": "1770699842",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-NVX-E760C"
+            },
+            {
+                "id": "218933972",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-PSU-16"
+            },
+            {
+                "id": "384359677",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-PSU-16-PLUS"
+            },
+            {
+                "id": "1736279711",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-PSU-3X8-RPS"
+            },
+            {
+                "id": "1691369730",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-PSU-8"
+            },
+            {
+                "id": "621827041",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-PSU-8-PLUS"
+            },
+            {
+                "id": "1952670582",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-PSU-ULTRA-MIDSPAN"
+            },
+            {
+                "id": "1431990260",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-PSUA-PWS"
+            },
+            {
+                "id": "1971790239",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-100"
+            },
+            {
+                "id": "895948483",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-100-1"
+            },
+            {
+                "id": "1161885579",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-100-C"
+            },
+            {
+                "id": "1228736309",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-100-F"
+            },
+            {
+                "id": "744611390",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-100-S"
+            },
+            {
+                "id": "226762815",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-100-STR"
+            },
+            {
+                "id": "947330372",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-150-S"
+            },
+            {
+                "id": "1175015362",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-200-C"
+            },
+            {
+                "id": "1383251215",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-200-S"
+            },
+            {
+                "id": "157715547",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-200-S2"
+            },
+            {
+                "id": "114843609",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-4K-100-C"
+            },
+            {
+                "id": "772700556",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-4K-100-C-1G-B-T"
+            },
+            {
+                "id": "1962481168",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-4K-100-C-1G-W-T"
+            },
+            {
+                "id": "1089318407",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-4K-SCALER-C"
+            },
+            {
+                "id": "172443470",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-4K-SCALER-C-DSP"
+            },
+            {
+                "id": "386928164",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-4K-SCALER-R-C"
+            },
+            {
+                "id": "2039565888",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-4KZ-100-C"
+            },
+            {
+                "id": "855802317",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-4KZ-SCALER-C"
+            },
+            {
+                "id": "1541149877",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-SCALER-C"
+            },
+            {
+                "id": "482706016",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-SCALER-S"
+            },
+            {
+                "id": "131318766",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RMC-SCALER-S2"
+            },
+            {
+                "id": "1454481676",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RPP-K24"
+            },
+            {
+                "id": "681085532",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RX1-1G"
+            },
+            {
+                "id": "412070594",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-RX1-1G-W-T"
+            },
+            {
+                "id": "1444769872",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-100"
+            },
+            {
+                "id": "1389984303",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-100-F"
+            },
+            {
+                "id": "775906431",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-200"
+            },
+            {
+                "id": "845777642",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-200-2G-B-T"
+            },
+            {
+                "id": "1308189285",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-200-2G-W-T"
+            },
+            {
+                "id": "1882624356",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-200-C-2G-B-T"
+            },
+            {
+                "id": "803401601",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-200-C-2G-W-T"
+            },
+            {
+                "id": "1098244542",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-201-C"
+            },
+            {
+                "id": "1700058367",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-201-S"
+            },
+            {
+                "id": "1473838164",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-201-S2"
+            },
+            {
+                "id": "639962803",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-300N"
+            },
+            {
+                "id": "2077898973",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-300N-F"
+            },
+            {
+                "id": "459925262",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-400-3G"
+            },
+            {
+                "id": "93999647",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-400-3G-W-T"
+            },
+            {
+                "id": "61904447",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-401-C"
+            },
+            {
+                "id": "1043069786",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-401-S"
+            },
+            {
+                "id": "370306650",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-401-S2"
+            },
+            {
+                "id": "1358468613",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-4K-100-C-1G-B-T"
+            },
+            {
+                "id": "905656460",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-4K-100-C-1G-W-T"
+            },
+            {
+                "id": "603590181",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-4K-202-C"
+            },
+            {
+                "id": "1073777402",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-4K-302-C"
+            },
+            {
+                "id": "2052442987",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-4KZ-100-C-1G-B-T"
+            },
+            {
+                "id": "1699815968",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-4KZ-100-C-1G-W-T"
+            },
+            {
+                "id": "68647163",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-4KZ-202-C"
+            },
+            {
+                "id": "121979246",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX-4KZ-302-C"
+            },
+            {
+                "id": "1030947130",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX1-1G"
+            },
+            {
+                "id": "1186550212",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TX1-1G-W-T"
+            },
+            {
+                "id": "1668047211",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-TXRX-100-STR"
+            },
+            {
+                "id": "1575472233",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-XIO-DIR-160"
+            },
+            {
+                "id": "1599411654",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-XIO-DIR-80"
+            },
+            {
+                "id": "633127860",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DM-XIO-DIR-ENT"
+            },
+            {
+                "id": "833129204",
+                "manufacturer_link": {
+                    "content": "970475071",
+                    "displayValue": "QSC",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/970475071"
+                },
+                "part_number": "DM1-NA"
+            },
+            {
+                "id": "1904311764",
+                "manufacturer_link": {
+                    "content": "456355463",
+                    "displayValue": "Yamaha Corporation of America",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/456355463"
+                },
+                "part_number": "DM1000VCM"
+            },
+            {
+                "id": "758336370",
+                "manufacturer_link": {
+                    "content": "624427025",
+                    "displayValue": "Samsung Electronics America, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/624427025"
+                },
+                "part_number": "DM32E"
+            },
+            {
+                "id": "77100770",
+                "manufacturer_link": {
+                    "content": "624427025",
+                    "displayValue": "Samsung Electronics America, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/624427025"
+                },
+                "part_number": "DM55E"
+            },
+            {
+                "id": "1178521193",
+                "manufacturer_link": {
+                    "content": "1334272017",
+                    "displayValue": "Bose Professional",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1334272017"
+                },
+                "part_number": "DM8C-SUB"
+            },
+            {
+                "id": "43233875",
+                "manufacturer_link": {
+                    "content": "1100147862",
+                    "displayValue": "Chief",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1100147862"
+                },
+                "part_number": "DMA1B"
+            },
+            {
+                "id": "1664368717",
+                "manufacturer_link": {
+                    "content": "1100147862",
+                    "displayValue": "Chief",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1100147862"
+                },
+                "part_number": "DMA1S"
+            },
+            {
+                "id": "1934274458",
+                "manufacturer_link": {
+                    "content": "1100147862",
+                    "displayValue": "Chief",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1100147862"
+                },
+                "part_number": "DMA2B"
+            },
+            {
+                "id": "2139632179",
+                "manufacturer_link": {
+                    "content": "1100147862",
+                    "displayValue": "Chief",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1100147862"
+                },
+                "part_number": "DMA2S"
+            },
+            {
+                "id": "1910817676",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMB-4K-CPU-128"
+            },
+            {
+                "id": "1975368703",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMB-4K-CPU-64"
+            },
+            {
+                "id": "2125714464",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMB-4K-I-C"
+            },
+            {
+                "id": "1966489254",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMB-4K-I-HD"
+            },
+            {
+                "id": "665321181",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMB-4K-I-HD-DNT"
+            },
+            {
+                "id": "1315261834",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMB-4K-O-C"
+            },
+            {
+                "id": "629592365",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMB-4K-O-HD"
+            },
+            {
+                "id": "459322022",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMB-4K-O-HD-DNT"
+            },
+            {
+                "id": "140048291",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMB-I-S"
+            },
+            {
+                "id": "1515493075",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMB-I-S2"
+            },
+            {
+                "id": "1209048021",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMB-O-S"
+            },
+            {
+                "id": "538744590",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMB-O-S2"
+            },
+            {
+                "id": "1289247395",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-4K-C"
+            },
+            {
+                "id": "91073856",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-4K-C-HDCP2"
+            },
+            {
+                "id": "1046584257",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-4K-CO-HD"
+            },
+            {
+                "id": "22863445",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-4K-CO-HD-HDCP2"
+            },
+            {
+                "id": "1017408029",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-4K-HD"
+            },
+            {
+                "id": "958478749",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-4K-HD-DSP-HDCP2"
+            },
+            {
+                "id": "731178700",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-4K-HD-HDCP2"
+            },
+            {
+                "id": "1364832539",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-4K-HDO"
+            },
+            {
+                "id": "1124124449",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-4KZ-C"
+            },
+            {
+                "id": "590991846",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-4KZ-C-DSP"
+            },
+            {
+                "id": "1071658533",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-4KZ-CO-HD"
+            },
+            {
+                "id": "1305319998",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-4KZ-HD"
+            },
+            {
+                "id": "49052718",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-4KZ-HD-DSP"
+            },
+            {
+                "id": "1966178494",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-4KZ-HDO"
+            },
+            {
+                "id": "1744933612",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-C"
+            },
+            {
+                "id": "1460729108",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-C-DSP"
+            },
+            {
+                "id": "1631627781",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-CAT"
+            },
+            {
+                "id": "368507633",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-CAT-DSP"
+            },
+            {
+                "id": "2144842000",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-CATO-HD"
+            },
+            {
+                "id": "1448142868",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-CPU3"
+            },
+            {
+                "id": "1896332181",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-DVI"
+            },
+            {
+                "id": "2130686940",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-F"
+            },
+            {
+                "id": "1606579821",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-F-DSP"
+            },
+            {
+                "id": "244868661",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-HD"
+            },
+            {
+                "id": "1374308421",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-HD-DSP"
+            },
+            {
+                "id": "882668506",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-HDO"
+            },
+            {
+                "id": "219429684",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-S"
+            },
+            {
+                "id": "1731636218",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-S-DSP"
+            },
+            {
+                "id": "1419612847",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-S2"
+            },
+            {
+                "id": "360373418",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-S2-DSP"
+            },
+            {
+                "id": "578010552",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-S2O-HD"
+            },
+            {
+                "id": "894664045",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-SDI"
+            },
+            {
+                "id": "827877766",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-SO-HD"
+            },
+            {
+                "id": "265350569",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-STR"
+            },
+            {
+                "id": "399045771",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-STRO"
+            },
+            {
+                "id": "509054356",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-VGA"
+            },
+            {
+                "id": "244504775",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-VID-BNC"
+            },
+            {
+                "id": "1677472919",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-VID-RCA-A"
+            },
+            {
+                "id": "1782455056",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-VID-RCA-D"
+            },
+            {
+                "id": "829965920",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMC-VID4"
+            },
+            {
+                "id": "1252807002",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCI"
+            },
+            {
+                "id": "1412778629",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-10"
+            },
+            {
+                "id": "1247279281",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-1000"
+            },
+            {
+                "id": "350041200",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-11"
+            },
+            {
+                "id": "832735712",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-1100"
+            },
+            {
+                "id": "353913515",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-1110"
+            },
+            {
+                "id": "1313127742",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-1111"
+            },
+            {
+                "id": "1602638899",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-1112"
+            },
+            {
+                "id": "1690197927",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-1113"
+            },
+            {
+                "id": "1999736249",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-1115"
+            },
+            {
+                "id": "2045405577",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-1120"
+            },
+            {
+                "id": "1089545509",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-1122"
+            },
+            {
+                "id": "330443393",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-1130"
+            },
+            {
+                "id": "787085398",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-1133"
+            },
+            {
+                "id": "1345665865",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-1150"
+            },
+            {
+                "id": "1194062543",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-1155"
+            },
+            {
+                "id": "2044251428",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-12"
+            },
+            {
+                "id": "1082970036",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-1220"
+            },
+            {
+                "id": "182001838",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-13"
+            },
+            {
+                "id": "1886164858",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-1300"
+            },
+            {
+                "id": "1121891136",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-1330"
+            },
+            {
+                "id": "1998443080",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-1333"
+            },
+            {
+                "id": "1288131823",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-15"
+            },
+            {
+                "id": "1955110424",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-1550"
+            },
+            {
+                "id": "1023426665",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-20"
+            },
+            {
+                "id": "279577681",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-2000"
+            },
+            {
+                "id": "760096303",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-2100"
+            },
+            {
+                "id": "161001316",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-22"
+            },
+            {
+                "id": "1551162566",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-2200"
+            },
+            {
+                "id": "977077950",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-2220"
+            },
+            {
+                "id": "804266307",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-2221"
+            },
+            {
+                "id": "160984367",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-2222"
+            },
+            {
+                "id": "1868584809",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-2223"
+            },
+            {
+                "id": "139918910",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-2230"
+            },
+            {
+                "id": "821381794",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-2233"
+            },
+            {
+                "id": "1540134918",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-23"
+            },
+            {
+                "id": "1238176274",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-2300"
+            },
+            {
+                "id": "896162998",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-2330"
+            },
+            {
+                "id": "2069017844",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-2333"
+            },
+            {
+                "id": "1531913417",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-30"
+            },
+            {
+                "id": "2140449319",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-3000"
+            },
+            {
+                "id": "208679320",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-33"
+            },
+            {
+                "id": "72565161",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-3300"
+            },
+            {
+                "id": "2030642922",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-3330"
+            },
+            {
+                "id": "279954891",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-3333"
+            },
+            {
+                "id": "1356397396",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-40"
+            },
+            {
+                "id": "824683707",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-4000"
+            },
+            {
+                "id": "1425365851",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-43"
+            },
+            {
+                "id": "1138853781",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-4300"
+            },
+            {
+                "id": "1547253630",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-4330"
+            },
+            {
+                "id": "916080373",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-4333"
+            },
+            {
+                "id": "700309795",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-44"
+            },
+            {
+                "id": "1854400340",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-4400"
+            },
+            {
+                "id": "1145156267",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-4430"
+            },
+            {
+                "id": "1915724699",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-4433"
+            },
+            {
+                "id": "2102162432",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-4440"
+            },
+            {
+                "id": "116341548",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-4443"
+            },
+            {
+                "id": "1954060165",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-4444"
+            },
+            {
+                "id": "1627272819",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-45"
+            },
+            {
+                "id": "95593151",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-50"
+            },
+            {
+                "id": "163933865",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-5000"
+            },
+            {
+                "id": "2097660786",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-5100"
+            },
+            {
+                "id": "1233088754",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-53"
+            },
+            {
+                "id": "596242699",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-5300"
+            },
+            {
+                "id": "1177299279",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-5330"
+            },
+            {
+                "id": "780246486",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-5333"
+            },
+            {
+                "id": "425437502",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-5400"
+            },
+            {
+                "id": "1158165179",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-5440"
+            },
+            {
+                "id": "316164350",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-5444"
+            },
+            {
+                "id": "773793188",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-55"
+            },
+            {
+                "id": "1005294112",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-5500"
+            },
+            {
+                "id": "539560478",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-5530"
+            },
+            {
+                "id": "4220124",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-5533"
+            },
+            {
+                "id": "1389363058",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-5540"
+            },
+            {
+                "id": "799809352",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-5544"
+            },
+            {
+                "id": "1895192338",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-5550"
+            },
+            {
+                "id": "203183937",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-5551"
+            },
+            {
+                "id": "1101914556",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-5553"
+            },
+            {
+                "id": "987909425",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-5554"
+            },
+            {
+                "id": "1000992384",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-5555"
+            },
+            {
+                "id": "1164432081",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-60"
+            },
+            {
+                "id": "94911263",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6000"
+            },
+            {
+                "id": "1465750092",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-63"
+            },
+            {
+                "id": "1896361201",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6300"
+            },
+            {
+                "id": "915012390",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6330"
+            },
+            {
+                "id": "1986862675",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6333"
+            },
+            {
+                "id": "839390305",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-64"
+            },
+            {
+                "id": "392314939",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6400"
+            },
+            {
+                "id": "199248521",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6440"
+            },
+            {
+                "id": "952292808",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6444"
+            },
+            {
+                "id": "1719391492",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-65"
+            },
+            {
+                "id": "2019177998",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6500"
+            },
+            {
+                "id": "158487128",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6550"
+            },
+            {
+                "id": "357347280",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6555"
+            },
+            {
+                "id": "1721515557",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-66"
+            },
+            {
+                "id": "1698320059",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6600"
+            },
+            {
+                "id": "1219081416",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6630"
+            },
+            {
+                "id": "696160137",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6633"
+            },
+            {
+                "id": "2012018740",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6640"
+            },
+            {
+                "id": "1635039496",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6644"
+            },
+            {
+                "id": "508083672",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6650"
+            },
+            {
+                "id": "707126143",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6655"
+            },
+            {
+                "id": "605377310",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6660"
+            },
+            {
+                "id": "1539385387",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6663"
+            },
+            {
+                "id": "1680854218",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6664"
+            },
+            {
+                "id": "915165216",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6665"
+            },
+            {
+                "id": "1398841940",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-6666"
+            },
+            {
+                "id": "716257863",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-7700"
+            },
+            {
+                "id": "39815940",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMCO-INSTALLKIT"
+            },
+            {
+                "id": "680755525",
+                "manufacturer_link": {
+                    "content": "1926394889",
+                    "displayValue": "Tripp Lite",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1926394889"
+                },
+                "part_number": "DMCS3270XP"
+            },
+            {
+                "id": "1464674499",
+                "manufacturer_link": {
+                    "content": "1926394889",
+                    "displayValue": "Tripp Lite",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1926394889"
+                },
+                "part_number": "DMCS3770L"
+            },
+            {
+                "id": "1096190887",
+                "manufacturer_link": {
+                    "content": "1926394889",
+                    "displayValue": "Tripp Lite",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1926394889"
+                },
+                "part_number": "DMCS60100XX"
+            },
+            {
+                "id": "1319079348",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMF-CI-8"
+            },
+            {
+                "id": "491198326",
+                "manufacturer_link": {
+                    "content": "1136620186",
+                    "displayValue": "Draper, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1136620186"
+                },
+                "part_number": "DMI2X2"
+            },
+            {
+                "id": "1282797321",
+                "manufacturer_link": {
+                    "content": "1136620186",
+                    "displayValue": "Draper, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1136620186"
+                },
+                "part_number": "DMI2X3"
+            },
+            {
+                "id": "126343006",
+                "manufacturer_link": {
+                    "content": "1136620186",
+                    "displayValue": "Draper, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1136620186"
+                },
+                "part_number": "DMI2X4"
+            },
+            {
+                "id": "1705653487",
+                "manufacturer_link": {
+                    "content": "1136620186",
+                    "displayValue": "Draper, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1136620186"
+                },
+                "part_number": "DMI3X2"
+            },
+            {
+                "id": "628696129",
+                "manufacturer_link": {
+                    "content": "1136620186",
+                    "displayValue": "Draper, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1136620186"
+                },
+                "part_number": "DMI3X3"
+            },
+            {
+                "id": "1635662635",
+                "manufacturer_link": {
+                    "content": "1136620186",
+                    "displayValue": "Draper, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1136620186"
+                },
+                "part_number": "DMI3X4"
+            },
+            {
+                "id": "1810437273",
+                "manufacturer_link": {
+                    "content": "1136620186",
+                    "displayValue": "Draper, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1136620186"
+                },
+                "part_number": "DMI4X2"
+            },
+            {
+                "id": "538030730",
+                "manufacturer_link": {
+                    "content": "1136620186",
+                    "displayValue": "Draper, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1136620186"
+                },
+                "part_number": "DMI4X3"
+            },
+            {
+                "id": "1573514895",
+                "manufacturer_link": {
+                    "content": "1136620186",
+                    "displayValue": "Draper, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1136620186"
+                },
+                "part_number": "DMI4X4"
+            },
+            {
+                "id": "1171830146",
+                "manufacturer_link": {
+                    "content": "1829197541",
+                    "displayValue": "Shure Incorporated",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1829197541"
+                },
+                "part_number": "DMK57-52"
+            },
+            {
+                "id": "774968795",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMPS-100-C"
+            },
+            {
+                "id": "1189277812",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMPS-200-C"
+            },
+            {
+                "id": "332626593",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMPS-300-C"
+            },
+            {
+                "id": "832030640",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMPS3-200-C"
+            },
+            {
+                "id": "1820451331",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMPS3-300-C"
+            },
+            {
+                "id": "99417777",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMPS3-300-C-AEC"
+            },
+            {
+                "id": "1412261657",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMPS3-4K-100-C"
+            },
+            {
+                "id": "672903030",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMPS3-4K-150-C"
+            },
+            {
+                "id": "1970316257",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMPS3-4K-250-C"
+            },
+            {
+                "id": "430984501",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMPS3-4K-250-C-AIRMEDIA"
+            },
+            {
+                "id": "1655404120",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMPS3-4K-350-C"
+            },
+            {
+                "id": "973534529",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMPS3-4K-350-C-AIRMEDIA"
+            },
+            {
+                "id": "1309384556",
+                "manufacturer_link": {
+                    "content": "1522905623",
+                    "displayValue": "Crestron Electronics, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/1522905623"
+                },
+                "part_number": "DMPS3-4K-50"
+            },
+            {
+                "id": "1728624098",
+                "manufacturer_link": {
+                    "content": "268998453",
+                    "displayValue": "AtlasIED",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/268998453"
+                },
+                "part_number": "DMS10"
+            },
+            {
+                "id": "1499562750",
+                "manufacturer_link": {
+                    "content": "268998453",
+                    "displayValue": "AtlasIED",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/268998453"
+                },
+                "part_number": "DMS10E"
+            },
+            {
+                "id": "1851216734",
+                "manufacturer_link": {
+                    "content": "268998453",
+                    "displayValue": "AtlasIED",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/268998453"
+                },
+                "part_number": "DMS7"
+            },
+            {
+                "id": "163616760",
+                "manufacturer_link": {
+                    "content": "268998453",
+                    "displayValue": "AtlasIED",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/268998453"
+                },
+                "part_number": "DMS7E"
+            },
+            {
+                "id": "1425221095",
+                "manufacturer_link": {
+                    "content": "2043360764",
+                    "displayValue": "Peerless-AV",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/2043360764"
+                },
+                "part_number": "DMU50SM-02"
+            },
+            {
+                "id": "2057323337",
+                "manufacturer_link": {
+                    "content": "787218838",
+                    "displayValue": "Whirlwind Music Distributors, Inc.",
+                    "type": "",
+                    "uri": "https://net-av.agileappscloud.com/networking/rest/record/bcea59493f0f45a8b6e532db2af2984c/787218838"
+                },
+                "part_number": "DMX35T"
+            }
+        ],
+        "recordCount": "354"
+    }
+}
