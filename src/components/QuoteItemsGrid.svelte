@@ -6,6 +6,9 @@
 	import Icon from '@smui/textfield/icon';
 	import HelperText from '@smui/textfield/helper-text';
 
+	import Swal from 'sweetalert2';
+	export const swal = Swal;
+
 	import { onMount } from 'svelte';
 	import { Grid } from 'ag-grid-community';
 	import type { GridOptions } from 'ag-grid-community';
@@ -16,15 +19,13 @@
 	//custom function
 	import { jsonFlattenArrayObjectsAsString } from '$lib/flattening';
 	import {
-		createFlagImg,
-		getContextMenuItems,
 		numberParser,
 		numberValueFormatter,
 		percentageValueFormatter,
 		unescapeSymbols
 	} from '$lib/utility_functions';
 
-	import handleBlur from '$components/Rates.svelte';
+	import handleBlur from '$components/Tests.svelte';
 
 	let rd: any[] = [];
 
@@ -35,6 +36,7 @@
 		headerName?: string;
 		width?: number;
 		hide?: boolean;
+		cellStyle?: any;
 		checkboxSelection?: boolean;
 		editable?: boolean;
 		enableRowGroup?: boolean;
@@ -64,7 +66,13 @@
 		},
 
 		{ field: 'uom', width: minWidth, headerName: 'UoM' },
-		{ field: 'pricebook_part_number', headerName: 'Part No.' },
+		{
+			field: 'pricebook_part_number',
+			headerName: 'Part No.',
+			cellStyle: {
+				color: 'RebeccaPurple'
+			}
+		},
 		{
 			field: 'model_name',
 			valueFormatter: (params: { value: string }) => unescapeSymbols(params.value),
@@ -166,14 +174,20 @@
 			valueFormatter: numberValueFormatter
 		},
 		{
+			field: 'materials_sell',
+			headerName: 'Materials',
+			type: 'numericColumn',
+			valueFormatter: numberValueFormatter
+		},
+		{
 			field: 'freight_sell',
 			headerName: 'Freight',
 			type: 'numericColumn',
 			valueFormatter: numberValueFormatter
 		},
 		{
-			field: 'materials_sell',
-			headerName: 'Materials',
+			field: 'tax_amount',
+			headerName: 'Tax',
 			type: 'numericColumn',
 			valueFormatter: numberValueFormatter
 		},
@@ -189,12 +203,7 @@
 			type: 'numericColumn',
 			valueFormatter: numberValueFormatter
 		},
-		{
-			field: 'tax_amount',
-			headerName: 'Tax',
-			type: 'numericColumn',
-			valueFormatter: numberValueFormatter
-		},
+
 		//#region hidden
 		{ field: 'apply_cost_discount', hide: true },
 		{ field: 'created_id', hide: true },
@@ -333,7 +342,6 @@
 			// perform any necessary updates to your application state
 			recalculateTotals(params);
 			recalculateRates();
-			//console.log('Cell data has changed:', params);
 		}
 	};
 
@@ -346,6 +354,388 @@
 	});
 	let newRows = 0;
 
+	//Right mouse button context menu
+	export function getContextMenuItems(params: any) {
+		var toastMixin = Swal.mixin({
+			toast: true,
+			icon: 'success',
+			title: 'General Title',
+			position: 'center',
+			showConfirmButton: false,
+			timer: 2000,
+			timerProgressBar: true,
+			didOpen: (toast) => {
+				toast.addEventListener('mouseenter', Swal.stopTimer);
+				toast.addEventListener('mouseleave', Swal.resumeTimer);
+			}
+		});
+
+		function onAddRow() {
+			console.log('onAddRow');
+			Swal.fire({
+				title: 'Add Row',
+				text: 'Add a new row to the grid',
+				icon: 'info',
+				showCancelButton: true,
+				confirmButtonText: 'Add',
+				cancelButtonText: 'Cancel'
+			}).then((result) => {
+				if (result.isConfirmed) {
+					insertRows();
+				}
+			});
+		}
+		function insertRows() {
+			console.log('insertRows');
+			return true;
+		}
+		function onRemoveSelected() {
+			console.log('onRemoveSelected');
+			return true;
+		}
+		function modifyPricing(pmod: string) {
+			console.log('modifyPricing', pmod);
+			return true;
+		}
+		function getSelectedRows() {
+			console.log('getSelectedRows');
+			return gridOptions.api?.getSelectedRows();
+		}
+		function getSelectedNodes() {
+			console.log('getSelectedNodes');
+			return true;
+		}
+		function getSelectedNodeData() {
+			console.log('getSelectedNodeData');
+			return true;
+		}
+		function updateRowCalcPaste() {
+			console.log('updateRowCalcPaste');
+			return true;
+		}
+		function updatePricebook(node: any, index: number) {
+			console.log('updatePricebook');
+			return true;
+		}
+
+		let result = [
+			{
+				name: 'Add Row',
+				action: function () {
+					onAddRow();
+				},
+				icon: '<i class="fas fa-plus"></i><img src="" />',
+				disabled: false,
+				tooltip: 'Add Line at end.'
+			},
+			{
+				name: 'Insert Rows',
+				action: function () {
+					insertRows();
+				},
+				disabled: false,
+				icon: '<i class="fas fa-long-arrow-alt-right"></i><img src="" />',
+				tooltip: 'Insert above cursor line at end.'
+			},
+			{
+				name: 'Delete Rows',
+				action: function () {
+					onRemoveSelected();
+				},
+				disabled: false,
+				tooltip: 'Delete the rows selected',
+				cssClasses: ['contextmenu-delete-row'],
+				icon: '<i class="fas fa-trash"></i><img src="" />'
+			},
+			'separator',
+
+			{
+				name: 'Modify Price',
+				icon: '<i class="fas fa-pen-alt"></i></i> <img src="" />',
+				subMenu: [
+					{
+						name: 'P3',
+						action: function () {
+							modifyPricing('P03');
+						}
+					},
+					{
+						name: 'P5',
+						action: function () {
+							modifyPricing('P05');
+						}
+					},
+					{
+						name: 'P10',
+						action: function () {
+							modifyPricing('P10');
+						}
+					},
+					{
+						name: 'P15',
+						action: function () {
+							modifyPricing('P15');
+						}
+					},
+					{
+						name: 'P20',
+						action: function () {
+							modifyPricing('P20');
+						}
+					},
+					{
+						name: 'P25',
+						action: function () {
+							modifyPricing('P25');
+						}
+					},
+					{
+						name: 'P30',
+						action: function () {
+							modifyPricing('P30');
+						}
+					},
+					{
+						name: 'P35',
+						action: function () {
+							modifyPricing('P35');
+						}
+					},
+					{
+						name: 'P40',
+						action: function () {
+							modifyPricing('P40');
+						}
+					},
+					{
+						name: 'P45',
+						action: function () {
+							modifyPricing('P45');
+						}
+					},
+					{
+						name: 'P50',
+						action: function () {
+							modifyPricing('P50');
+						}
+					}
+				]
+			},
+
+			//#region
+			{
+				name: 'Update Pricebook',
+				icon: '<i class="fas fa-funnel-dollar"></i></i> <img src="" />',
+				subMenu: [
+					{
+						name: 'Update TO Pricebook',
+						action: function () {
+							if (getSelectedRows()) {
+								const selectedRowData = getSelectedNodeData();
+								selectedRowData.forEach((row) => updatePricebook(row));
+							}
+						},
+						icon: '<i class="fas fa-arrow-right"></i><img src="" />',
+						cssClasses: ['contextmenu-update-to-pricebook'],
+						disabled: false,
+						tooltip: 'Update info TO PriceBook with the selected row data'
+					},
+					{
+						name: 'Update FROM Pricebook',
+						action: function () {
+							if (getSelectedRows()) {
+								const selectedRowData = getSelectedNodeData();
+								selectedRowData.forEach((row: any) => updatePricebook(row));
+							}
+							Swal.fire({
+								title: 'Update FROM Pricebook',
+								text: 'Selected rows pricing has been updated from the pricebook',
+								icon: 'success',
+								allowEnterKey: false
+							});
+						},
+						icon: '<i class="fas fa-arrow-left"></i><img src="" />',
+						cssClasses: ['contextmenu-update-from-pricebook'],
+						disabled: false,
+						tooltip: 'Update selected rows FROM PriceBook '
+					}
+				]
+			},
+
+			//#endregion
+			///////////////////////////////////
+			'separator',
+			{
+				name: 'Toggle Optional',
+				action: function () {
+					let selectedNodes = gridOptions.api?.getSelectedNodes();
+
+					selectedNodes?.forEach((node: any, index) => {
+						if (node.data.isoptional === 'N') {
+							node.setDataValue('isoptional', 'Y');
+						} else {
+							node.setDataValue('isoptional', 'N');
+						}
+
+						updateRowCalcPaste(node, index);
+					});
+				},
+				icon: '<i class="fas fa-toggle-on"></i> <img src ="" />',
+				disabled: false,
+				tooltip: 'Modify'
+			},
+			{
+				name: 'Highlight Row',
+				action: function () {
+					let selectedNodes = gridOptions.api?.getSelectedNodes();
+
+					selectedNodes?.forEach((node, index) => {
+						if (node.data.ishighlighted === 'N') {
+							node.setDataValue('ishighlighted', 'Y');
+						} else {
+							node.setDataValue('ishighlighted', 'N');
+						}
+
+						updateRowCalcPaste(node, index);
+					});
+				},
+				icon: '<i class="fas fa-highlighter"></i><img src="" />',
+				disabled: false,
+				tooltip: 'Sets the line color to yellow'
+			},
+
+			'separator',
+			{
+				name: 'Locations',
+				icon: '<i class="fas fa-building"></i><img src="" />',
+				disabled: false,
+				tooltip: 'Add a Quote Location',
+				subMenu: [
+					{
+						name: 'Add Location',
+						action: async function () {
+							let inputValue = 'new...';
+							const locationName = await Swal.fire({
+								title: 'Add a Location',
+								input: 'text',
+								inputLabel: 'Location Name ',
+								inputValue: inputValue,
+								showCancelButton: true,
+								inputValidator: (inputValue) => {
+									return new Promise((resolve: any) => {
+										if (inputValue) {
+											resolve();
+										} else {
+											resolve('Loaction cannot be empty');
+										}
+									});
+								}
+							});
+
+							if (locationName.value) {
+								locationValues.push(locationName.value);
+								sortArray(locationValues); //put the new item in order
+
+								toastMixin.fire({
+									animation: true,
+									title: 'Location Added Successfully'
+								});
+							}
+						}
+					},
+					{
+						name: 'Rename Location',
+						action: function () {
+							toastMixin.fire({
+								animation: true,
+								icon: 'info',
+								title: 'Location Rename action'
+							});
+						}
+					},
+					{
+						name: 'Delete Location',
+						action: function () {
+							toastMixin.fire({
+								animation: true,
+								icon: 'warning',
+								title: 'Location Delete action'
+							});
+						}
+					}
+				]
+			},
+			{
+				name: 'Systems',
+				icon: '<i class="fas fa-building"></i><img src="" />',
+				disabled: false,
+				tooltip: 'Add a Quote Systems',
+				subMenu: [
+					{
+						name: 'Add System',
+						action: async function () {
+							let inputValue = 'new...';
+							const systemName = await Swal.fire({
+								title: 'Add a System',
+								input: 'text',
+								inputLabel: 'System Name ',
+								inputValue: inputValue,
+								showCancelButton: true,
+								inputValidator: (inputValue) => {
+									return new Promise((resolve: any) => {
+										if (inputValue) {
+											resolve();
+										} else {
+											resolve('System cannot be empty');
+										}
+									});
+								}
+							});
+
+							if (systemName.value) {
+								systemValues.push(systemName.value);
+								sortArray(systemValues); //put the new item in order
+
+								toastMixin.fire({
+									animation: true,
+									title: 'Location Added Successfully'
+								});
+							}
+						}
+					},
+					{
+						name: 'Rename System',
+						action: function () {
+							toastMixin.fire({
+								animation: true,
+								icon: 'info',
+								title: 'System Rename action'
+							});
+						}
+					},
+					{
+						name: 'Delete System',
+						action: function () {
+							toastMixin.fire({
+								animation: true,
+								icon: 'warning',
+								title: 'System Delete action'
+							});
+						}
+					}
+				]
+			},
+			'separator',
+			'copy',
+			'copyWithHeaders',
+			'separator',
+			'export',
+			'separator',
+			'chartRange'
+		];
+
+		return result;
+	}
 	function handleAddRow() {
 		newRows++;
 		const rowcount = gridOptions.api?.getDisplayedRowCount();
@@ -413,7 +803,6 @@
 		let row = params.data;
 
 		const unit_price = calculateUnitPrice(row) || row.unit_price;
-		console.log(unit_price);
 
 		if (row.price_modifier === 'L') {
 			row.unit_price = row.list_price;
@@ -460,7 +849,6 @@
 		const columnState = gridOptions.columnApi?.getColumnState();
 		const groupState = gridOptions.columnApi?.getColumnGroupState();
 		const filterState = gridOptions.api?.getFilterModel();
-		console.log(columnState);
 
 		// Store the state in local storage
 		localStorage.setItem('columnState', JSON.stringify(columnState));
@@ -496,7 +884,6 @@
 
 	let filterString = '';
 	const onFilterStringChange = () => {
-		console.log({ filterString });
 		gridOptions.api?.setQuickFilter(filterString);
 	};
 
@@ -530,7 +917,6 @@
 		tax: 6.0,
 		service: 10.0
 	};
-	$: console.log({ ...rates });
 	///////////////////////////////////////
 </script>
 
@@ -562,7 +948,7 @@
 		>
 			<Icon class="material-icons" slot="trailingIcon">percent</Icon>
 		</Textfield>
-		<labl class="label-container"> Shipping</labl>
+		<labl class="label-container"> Freight</labl>
 		<Textfield
 			style="width: 120px; height:40px; margin-right: 10px;"
 			variant="outlined"

@@ -22,7 +22,7 @@
 
 	import Info from '$components/QuoteInfo.svelte';
 	import Client from '$components/Client.svelte';
-	import Rates from '$components/Rates.svelte';
+	import Tests from '$components/Tests.svelte';
 
 	interface IOlympicData {
 		athlete: string;
@@ -83,7 +83,7 @@
 
 	let filterString = '';
 	const onFilterStringChange = () => {
-		console.log({ filterString });
+		//	console.log({ filterString });
 		api?.setQuickFilter(filterString);
 	};
 

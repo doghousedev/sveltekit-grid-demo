@@ -1,4 +1,5 @@
 <script lang="ts">
+	import '@ubeac/svelte/styles/tabler.css';
 	import { Button, Spinner } from '@ubeac/svelte';
 	import { DatePicker } from '@ubeac/svelte';
 	import {
@@ -22,7 +23,7 @@
 	let value: Date;
 </script>
 
-<div id="rates" style:display="none">
+<div id="tests" style:display="none">
 	<div>
 		<Button on:click={() => (open = true)} color="primary">Open Dialog</Button>
 		<br />

@@ -6,7 +6,7 @@
 
 	import Client from '$components/Client.svelte';
 	import QuoteInfo from '$components/QuoteInfo.svelte';
-	import Rates from '$components/Rates.svelte';
+	import Rates from '$components/Tests.svelte';
 	import Grid from '$components/Grid.svelte';
 	import QuoteItemsGrid from '$components/QuoteItemsGrid.svelte';
 
@@ -26,8 +26,8 @@
 			label: 'Items'
 		},
 		{
-			id: 'rates',
-			label: 'Rates'
+			id: 'tests',
+			label: 'Tests'
 		}
 	];
 

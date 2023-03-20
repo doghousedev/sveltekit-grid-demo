@@ -11,7 +11,6 @@
 
 	// binds to changes only to pathname deeper from the generated store ;)
 	$: path = $page.url.pathname;
-	import '@ubeac/svelte/styles/tabler.css';
 </script>
 
 <TopAppBar variant="static" prominent={false} dense={true} color={'primary'}>
@@ -61,6 +60,8 @@
 </div>
 
 <style lang="scss">
+	// @import '@ubeac/svelte/styles/tabler.css';
+
 	.drawer-container {
 		position: relative;
 		display: flex;
