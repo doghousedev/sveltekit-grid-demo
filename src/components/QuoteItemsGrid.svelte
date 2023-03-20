@@ -54,7 +54,7 @@
 		{ field: 'category_id', headerName: 'Category' },
 		{
 			field: 'quantity_total',
-			headerName: 'Quantity',
+			headerName: 'Qty.',
 			type: 'numericColumn',
 			editable: true,
 			cellEditor: 'agTextCellEditor',

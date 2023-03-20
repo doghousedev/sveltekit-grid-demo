@@ -11,6 +11,7 @@
 
 	// binds to changes only to pathname deeper from the generated store ;)
 	$: path = $page.url.pathname;
+	import '@ubeac/svelte/styles/tabler.css';
 </script>
 
 <TopAppBar variant="static" prominent={false} dense={true} color={'primary'}>
@@ -25,28 +26,29 @@
 	<div class="drawer-container">
 		<Drawer variant="dismissible" bind:open>
 			<Header>
-				<Title>Net-AV Quoting System</Title>
+				<Title>Net-AV</Title>
 				<Subtitle><hr /></Subtitle>
 			</Header>
 			<Content>
 				<List>
-					<Item href="/" activated={path === '/'} on:click={() => (open = false)}>
-						<Text>Home</Text>
-					</Item>
-
-					<Item href="/grid" activated={path === '/grid'} on:click={() => (open = false)}>
+					<Item href="/" on:click={() => console.log('New')}>
 						<Text>New</Text>
 					</Item>
-
-					<Item href="/grid" activated={path === '/grid'} on:click={() => (open = false)}>
+					<hr />
+					<Item href="/" on:click={() => console.log('Save')}>
 						<Text>Save</Text>
 					</Item>
 
 					<Item href="/snacks" activated={path === '/snacks'} on:click={() => (open = false)}>
 						<Text>Save As</Text>
 					</Item>
+					<hr />
 					<Item href="/grid" activated={path === '/grid'} on:click={() => (open = false)}>
 						<Text>Print</Text>
+					</Item>
+					<hr />
+					<Item href="/grid" activated={path === '/grid'} on:click={() => (open = false)}>
+						<Text>Preferences</Text>
 					</Item>
 				</List>
 			</Content>

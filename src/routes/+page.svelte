@@ -24,11 +24,11 @@
 		{
 			id: 'ag-grid',
 			label: 'Items'
+		},
+		{
+			id: 'rates',
+			label: 'Rates'
 		}
-		// {
-		// 	id: 'rates',
-		// 	label: 'Rates'
-		// }
 	];
 
 	// Define a function to handle button clicks and toggle the visibility of the divs
@@ -55,10 +55,12 @@
 
 	<div style="margin-left: 10px;">
 		<Select class="shaped-filled" variant="outlined">
-			<Option value="">Select an option</Option>
-			<Option value="views">Views</Option>
-			<Option value="reports">Reports</Option>
-			<Option value="preferences">Preferences</Option>
+			<Option value="">Views</Option>
+			<Option value="my_views">My Views</Option>
+			<Option value="public_views">Public Views</Option>
+			<Option value="new_view">New View</Option>
+			<Option value="edit_view">Edit View</Option>
+			<Option value="delete_view">Delete View</Option>
 		</Select>
 	</div>
 </div>
@@ -67,7 +69,7 @@
 <QuoteInfo />
 
 <Client />
-<!-- <Rates /> -->
+<Rates />
 <QuoteItemsGrid />
 
 <style lang="scss">
