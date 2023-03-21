@@ -7,8 +7,9 @@
 	import Client from '$components/Client.svelte';
 	import QuoteInfo from '$components/QuoteInfo.svelte';
 	import Rates from '$components/Tests.svelte';
-	import Grid from '$components/Grid.svelte';
+	// import Grid from '$components/Grid.svelte';
 	import QuoteItemsGrid from '$components/QuoteItemsGrid.svelte';
+	import Search from '$components/Search.svelte';
 
 	//#region newshowDivs
 	// Define an array of objects that describes the buttons and divs
@@ -24,6 +25,10 @@
 		{
 			id: 'ag-grid',
 			label: 'Items'
+		},
+		{
+			id: 'search',
+			label: 'Search'
 		},
 		{
 			id: 'tests',
@@ -71,6 +76,7 @@
 <Client />
 <Rates />
 <QuoteItemsGrid />
+<Search />
 
 <style lang="scss">
 	* :global(.shaped-outlined .mdc-notched-outline .mdc-notched-outline__leading) {
