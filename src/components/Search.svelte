@@ -106,7 +106,7 @@
     --mdc-theme-primary:rgba(39, 119, 245, 0.8) ;
     --mdc-theme-secondary: #676778;
     --mdc-theme-background: #fff;
-    --mdc-theme-surface: #3f3f3f;
+    --mdc-theme-surface: #fff;
     --mdc-theme-error: #b71c1c;
     --mdc-theme-on-primary: #fff;
     --mdc-theme-on-secondary: #fff;

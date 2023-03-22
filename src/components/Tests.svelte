@@ -42,7 +42,7 @@
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 1299,
 			selected: false,
-			qty: 0
+			qty: 1
 		},
 		{
 			mfg: 'LG',
@@ -50,7 +50,8 @@
 			desc: '65" OLED 4K HDR Smart TV',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 1499,
-			selected: false
+			selected: false,
+			qty: 1
 		},
 		{
 			mfg: 'Panasonic',
@@ -58,7 +59,8 @@
 			desc: '65" OLED 4K HDR Ultra HD TV',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 2999,
-			selected: false
+			selected: false,
+			qty: 1
 		},
 		{
 			mfg: 'Samsung',
@@ -66,7 +68,8 @@
 			desc: '65" Curved 4K UHD Smart LED TV',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 1699,
-			selected: false
+			selected: false,
+			qty: 1
 		},
 		{
 			mfg: 'Sharp',
@@ -74,7 +77,8 @@
 			desc: '90" Class (90-1/16" diagonal) Professional LCD Display',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 8499,
-			selected: false
+			selected: false,
+			qty: 1
 		},
 		{
 			mfg: 'NEC',
@@ -82,7 +86,8 @@
 			desc: '90" LED Backlit Commercial-Grade Display',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 7999,
-			selected: false
+			selected: false,
+			qty: 1
 		},
 		{
 			mfg: 'Panasonic',
@@ -90,7 +95,8 @@
 			desc: '98" Class (97.5" diagonal) Professional 4K UHD LCD Display',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 24999,
-			selected: false
+			selected: false,
+			qty: 1
 		},
 		{
 			mfg: 'Sony',
@@ -98,7 +104,8 @@
 			desc: '85" BRAVIA Professional Display with Android TV',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 4499,
-			selected: false
+			selected: false,
+			qty: 1
 		},
 		{
 			mfg: 'LG',
@@ -106,7 +113,8 @@
 			desc: '98" Ultra HD 4K Commercial Display with Smart Features',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 19999,
-			selected: false
+			selected: false,
+			qty: 1
 		},
 		{
 			mfg: 'Samsung',
@@ -114,7 +122,8 @@
 			desc: '98" QLED 8K UHD Signage',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 69999,
-			selected: false
+			selected: false,
+			qty: 1
 		},
 		{
 			mfg: 'Epson',
@@ -122,7 +131,8 @@
 			desc: 'PowerLite 2150 Wireless Full HD 1080p 3LCD Projector',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 899,
-			selected: false
+			selected: false,
+			qty: 1
 		},
 		{
 			mfg: 'NEC',
@@ -130,7 +140,8 @@
 			desc: 'The P605UL entry level installation projector features advanced technologies at a competitive cost.',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 800,
-			selected: false
+			selected: false,
+			qty: 1
 		},
 		{
 			mfg: 'Samsung',
@@ -138,7 +149,8 @@
 			desc: '65" commercial display with Edge-Lit LED technology',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 1500,
-			selected: false
+			selected: false,
+			qty: 1
 		},
 		{
 			mfg: 'Sony',
@@ -146,7 +158,8 @@
 			desc: 'The VPL-FHZ60 laser projector is ideal for a wide range of business, education and entertainment applications.',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 3000,
-			selected: false
+			selected: false,
+			qty: 1
 		},
 		{
 			mfg: 'NEC',
@@ -154,7 +167,8 @@
 			desc: 'Affordable 50-inch LCD display with full HD resolution',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 700,
-			selected: false
+			selected: false,
+			qty: 1
 		},
 		{
 			mfg: 'LG',
@@ -162,7 +176,8 @@
 			desc: '65" 4K UHD Smart LED NanoCell TV w/ AI ThinQ®',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 1200,
-			selected: false
+			selected: false,
+			qty: 1
 		},
 		{
 			mfg: 'Samsung',
@@ -170,7 +185,8 @@
 			desc: '95-inch LED backlit LCD commercial display with ultra-narrow bezel',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 15000,
-			selected: false
+			selected: false,
+			qty: 1
 		},
 		{
 			mfg: 'Sony',
@@ -178,7 +194,8 @@
 			desc: 'The VPL-VZ1000ES ultra-short throw laser projector offers stunning 4K HDR picture quality from just inches away from the screen.',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 25000,
-			selected: false
+			selected: false,
+			qty: 1
 		},
 		{
 			mfg: 'Sharp',
@@ -186,7 +203,8 @@
 			desc: '60" Full HD Commercial LCD TV',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 800,
-			selected: false
+			selected: false,
+			qty: 1
 		},
 		{
 			mfg: 'NEC',
@@ -194,7 +212,8 @@
 			desc: '90" large-screen LCD display with full HD resolution',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 12000,
-			selected: false
+			selected: false,
+			qty: 1
 		},
 		{
 			mfg: 'Sony',
@@ -202,7 +221,8 @@
 			desc: '85" BRAVIA 4K HDR Professional Display',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 3000,
-			selected: false
+			selected: false,
+			qty: 1
 		}
 	];
 
@@ -235,12 +255,12 @@
 						<TableHead>
 							<TableRow>
 								<TableCell>Select</TableCell>
+								<TableCell>Qty</TableCell>
 								<TableCell>Mfg</TableCell>
 								<TableCell>Part Number</TableCell>
 								<TableCell>Description</TableCell>
 								<TableCell>Unit Cost</TableCell>
 								<TableCell>Unit Price</TableCell>
-								<TableCell>Qty</TableCell>
 							</TableRow>
 						</TableHead>
 						<TableBody style="max-height: 300px; overflow-y: auto;">
@@ -252,14 +272,14 @@
 											style="border-color:blue;"
 										/></TableCell
 									>
+									<TableCell
+										><Input placeholder="Qty" type="number" bind:value={pbRecord.qty} /></TableCell
+									>
 									<TableCell>{pbRecord.mfg}</TableCell>
 									<TableCell>{pbRecord.part_number}</TableCell>
 									<TableCell>{pbRecord.desc}</TableCell>
 									<TableCell>{pbRecord.unit_cost}</TableCell>
 									<TableCell>{pbRecord.unit_price}</TableCell>
-									<TableCell
-										><Input placeholder="Qty" type="number" bind:value={pbRecord.qty} /></TableCell
-									>
 								</TableRow>
 							{/each}
 						</TableBody>

@@ -10,6 +10,7 @@
 	// import Grid from '$components/Grid.svelte';
 	import QuoteItemsGrid from '$components/QuoteItemsGrid.svelte';
 	import Search from '$components/Search.svelte';
+	import Formly from '$components/Formly.svelte';
 
 	//#region newshowDivs
 	// Define an array of objects that describes the buttons and divs
@@ -33,6 +34,10 @@
 		{
 			id: 'tests',
 			label: 'Tests'
+		},
+		{
+			id: 'forms',
+			label: 'Formly'
 		}
 	];
 
@@ -77,6 +82,7 @@
 <Rates />
 <QuoteItemsGrid />
 <Search />
+<Formly />
 
 <style lang="scss">
 	* :global(.shaped-outlined .mdc-notched-outline .mdc-notched-outline__leading) {

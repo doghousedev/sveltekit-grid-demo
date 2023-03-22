@@ -2,6 +2,7 @@
 	import Textfield from '@smui/textfield';
 	import Icon from '@smui/textfield/icon';
 	import HelperText from '@smui/textfield/helper-text';
+	import LayoutGrid, { Cell } from '@smui/layout-grid';
 
 	let valueA = '';
 	let valueB = '';
