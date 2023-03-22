@@ -31,6 +31,7 @@
 		unit_cost: number;
 		unit_price: number;
 		selected: boolean;
+		qty: number;
 	}
 
 	let pbRecords: PbRecord[] = [
@@ -40,7 +41,8 @@
 			desc: '65" BRAVIA 4K HDR Ultra HD TV with Android TV',
 			unit_cost: Math.floor(Math.random() * 100) + 1,
 			unit_price: 1299,
-			selected: false
+			selected: false,
+			qty: 0
 		},
 		{
 			mfg: 'LG',
@@ -255,7 +257,9 @@
 									<TableCell>{pbRecord.desc}</TableCell>
 									<TableCell>{pbRecord.unit_cost}</TableCell>
 									<TableCell>{pbRecord.unit_price}</TableCell>
-									<TableCell><Input placeholder="Qty" type="number" /></TableCell>
+									<TableCell
+										><Input placeholder="Qty" type="number" bind:value={pbRecord.qty} /></TableCell
+									>
 								</TableRow>
 							{/each}
 						</TableBody>
