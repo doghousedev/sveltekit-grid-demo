@@ -15,7 +15,8 @@ const config = {
 			$stores: './src/stores',
 			$types: './src/types',
 		},
-		adapter: adapter({ out: 'build' })
+		// adapter: adapter({ out: 'build' })
+		adapter: adapter({})
 	}
 };
 
