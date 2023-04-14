@@ -150,21 +150,34 @@
 </script>
 
 <div id="forms" style="display: none; flex-direction: column; align-items: center;">
-	<h1>Formly</h1>
-	<Formly
-		{form_name}
-		{fields}
-		on:submit={onSubmit}
-		btnSubmit={{
-			text: 'Submit alter',
-			classes: ['btn', 'btn-primary']
-		}}
-		btnReset={{
-			text: 'Reset alter',
-			classes: ['btn', 'btn-secondary']
-		}}
-	/>
+	<div class="container">
+		<div>
+			<h1>Formly 1</h1>
+			<Formly {form_name} {fields} />
+		</div>
+		<div>
+			<h1>Formly 2</h1>
+			<Formly
+				{form_name}
+				{fields}
+				on:submit={onSubmit}
+				btnSubmit={{
+					text: 'Submit alter',
+					classes: ['btn', 'btn-primary']
+				}}
+				btnReset={{
+					text: 'Reset alter',
+					classes: ['btn', 'btn-secondary']
+				}}
+			/>
+		</div>
+	</div>
 </div>
 
 <style>
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 16px;
+	}
 </style>
